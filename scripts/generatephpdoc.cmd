@@ -1,0 +1,1 @@
+phpdoc -f ../HSLColor.class.php -t ../docs -s on -pp on -ue -o "HTML:Smarty/Evolve:default"

@@ -1,0 +1,1 @@
+phpunit --coverage-html ../tests/logs ../tests/HSLColorTest

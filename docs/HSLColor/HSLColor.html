@@ -1,0 +1,1156 @@
+<div class='page_content'>
+    <h2 class="class-name"><img src="images/Class_logo.png"
+                                                            alt=" Class"
+                                                            title=" Class"
+                                                            style="vertical-align: middle"> HSLColor</h2>
+
+    <a name="sec-description"></a>
+    <div class="info-box">
+        <div class="info-box-title">Description</div>
+        <div class="nav-bar">
+                            <span class="disabled">Description</span> |
+                                                                        <a href="#sec-var-summary" rel='subsection'>Vars</a> (<a href="#sec-vars">details</a>)
+                                |                                                            <a href="#sec-method-summary" rel='subsection'>Methods</a> (<a href="#sec-methods" rel='subsection'>details</a>)
+                			
+                                </div>
+        <div class="info-box-body">
+                        <!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Description of HSLColor.class.php</p>
+<p class="description"><p>HSL notation looks like this, giving the Hue, Saturation and Lightness values in that order:  Red: 0° 100% 50%  Pale pink: 0° 100% 90% (#FFCCCC)  Cyan: 180° 100% 50%</p></p>
+	<ul class="tags">
+				<li><span class="field">author:</span> Peter Hilbring &lt;<a href="mailto:kontakt@hilbring-online.de" rel="contents">kontakt@hilbring-online.de</a>&gt;</li>
+				<li><span class="field">copyright:</span> Copyright (c) 2011 Peter Hilbring (http://www.hilbring.de)</li>
+				<li><span class="field">since:</span> 06.09.2011 19:52:40</li>
+				<li><span class="field">license:</span> <a href="http://www.apache.org/licenses/LICENSE-2.0" rel="contents">Apache License, Version 2.0</a></li>
+			</ul>
+            <p class="notes">
+                Located in <a class="field" href="HSLColor/_HSLColor.class.php.html" rel='contents'>/HSLColor.class.php</a> (line <span class="field"><a href="__filesource/fsource_HSLColor__HSLColor.class.php.html#a37" rel="contents">37</a></span>)
+            </p>
+            
+                        
+            <pre></pre>
+        
+                    </div>
+    </div>
+
+    
+    
+            <a name="sec-var-summary"></a>
+        <div class="info-box">
+            <div class="info-box-title">Variable Summary</span></div>
+            <div class="nav-bar">
+                <a href="#sec-description">Description</a> |
+                                <span class="disabled">Vars</span> (<a href="#sec-vars">details</a>)
+                                    | 
+                                            <a href="#sec-method-summary">Methods</a> (<a href="#sec-methods">details</a>)
+                    			
+                                            </div>
+            <div class="info-box-body">
+                <div class="var-summary">
+                                                            <div class="var-title">
+                        <img src="images/StaticVariable.png" alt=" " />
+                        static <span class="var-type">array</span>
+                        <a href="#$_colorData" title="details" class="var-name">$_colorData</a>
+                    </div>
+                                                                                                                                                                                                                                                                    <div class="var-title">
+                        <img src="images/PrivateVariable.png" alt=" " />
+                        <span class="var-type">float</span>
+                        <a href="#$_hue" title="details" class="var-name">$_hue</a>
+                    </div>
+                                                                                <div class="var-title">
+                        <img src="images/PrivateVariable.png" alt=" " />
+                        <span class="var-type">float</span>
+                        <a href="#$_lightness" title="details" class="var-name">$_lightness</a>
+                    </div>
+                                                                                <div class="var-title">
+                        <img src="images/PrivateVariable.png" alt=" " />
+                        <span class="var-type">float</span>
+                        <a href="#$_saturation" title="details" class="var-name">$_saturation</a>
+                    </div>
+                                                        </div>
+            </div>
+        </div>
+    
+            <a name="sec-method-summary"></a>
+        <div class="info-box">
+            <div class="info-box-title">Method Summary</span></div>
+            <div class="nav-bar">
+                <a href="#sec-description">Description</a> |
+                                                                                            <a href="#sec-var-summary">Vars</a> (<a href="#sec-vars">details</a>)
+                     
+                    |
+                                <span class="disabled">Methods</span> (<a href="#sec-methods">details</a>)
+            </div>
+            <div class="info-box-body">			
+                <div class="method-summary">
+                                                                                                                                                                                                                            <div class="method-definition">
+                        <img src="images/StaticMethod.png" alt=" "/>
+                        static
+                        <a href="#convertHSLToRGB" title="details" class="method-name" rel='subsection'>convertHSLToRGB</a>
+                                                    (<span class="var-type">float</span>&nbsp;<span class="var-name">$hue</span>, <span class="var-type">float</span>&nbsp;<span class="var-name">$saturation</span>, <span class="var-type">float</span>&nbsp;<span class="var-name">$lightness</span>)
+                                                                            <span class="method-result">array</span>
+                                            </div>
+                                                                                <div class="method-definition">
+                        <img src="images/StaticMethod.png" alt=" "/>
+                        static
+                        <a href="#convertHSLToRGBString" title="details" class="method-name" rel='subsection'>convertHSLToRGBString</a>
+                                                    (<span class="var-type">float</span>&nbsp;<span class="var-name">$hue</span>, <span class="var-type">float</span>&nbsp;<span class="var-name">$saturation</span>, <span class="var-type">float</span>&nbsp;<span class="var-name">$lightness</span>)
+                                                                            <span class="method-result">string</span>
+                                            </div>
+                                                                                <div class="method-definition">
+                        <img src="images/StaticMethod.png" alt=" "/>
+                        static
+                        <a href="#convertRGBToHSL" title="details" class="method-name" rel='subsection'>convertRGBToHSL</a>
+                                                    (<span class="var-type">integer</span>&nbsp;<span class="var-name">$red</span>, <span class="var-type">integer</span>&nbsp;<span class="var-name">$green</span>, <span class="var-type">integer</span>&nbsp;<span class="var-name">$blue</span>)
+                                                                            <span class="method-result">array</span>
+                                            </div>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                <div class="method-definition">
+                        <img src="images/StaticMethod.png" alt=" "/>
+                        static
+                        <a href="#Hue_2_RGB" title="details" class="method-name" rel='subsection'>Hue_2_RGB</a>
+                                                    (<span class="var-type">float</span>&nbsp;<span class="var-name">$v1</span>, <span class="var-type">float</span>&nbsp;<span class="var-name">$v2</span>, <span class="var-type">float</span>&nbsp;<span class="var-name">$vH</span>)
+                                                                            <span class="method-result">float</span>
+                                            </div>
+                                                                                                                                                                                                                                                                                                                                                                                            <div class="method-definition">
+                        <img src="images/Constructor.png" alt=" "/>
+                        <a href="#__construct" title="details" class="method-name">__construct</a>
+                                                    ([<span class="var-type">float</span>&nbsp;<span class="var-name">$hue</span> = <span class="var-default">0.0</span>], [<span class="var-type">float</span>&nbsp;<span class="var-name">$saturation</span> = <span class="var-default">0.0</span>], [<span class="var-type">float</span>&nbsp;<span class="var-name">$lightness</span> = <span class="var-default">1.0</span>])
+                                                                            <span class="method-result">void</span>
+                                            </div>
+                                                                                <div class="method-definition">
+                        <img src="images/Method.png" alt=" "/>
+                        <a href="#changeHue" title="details" class="method-name">changeHue</a>
+                                                    (<span class="var-type">float</span>&nbsp;<span class="var-name">$degrees</span>)
+                                                                            <span class="method-result">void</span>
+                                            </div>
+                                                                                <div class="method-definition">
+                        <img src="images/Method.png" alt=" "/>
+                        <a href="#changeLightness" title="details" class="method-name">changeLightness</a>
+                                                    (<span class="var-type">float</span>&nbsp;<span class="var-name">$amount</span>)
+                                                                            <span class="method-result">void</span>
+                                            </div>
+                                                                                <div class="method-definition">
+                        <img src="images/Method.png" alt=" "/>
+                        <a href="#changeSaturation" title="details" class="method-name">changeSaturation</a>
+                                                    (<span class="var-type">float</span>&nbsp;<span class="var-name">$amount</span>)
+                                                                            <span class="method-result">void</span>
+                                            </div>
+                                                                                                                                                                                                        <div class="method-definition">
+                        <img src="images/Method.png" alt=" "/>
+                        <a href="#getAnalogous" title="details" class="method-name">getAnalogous</a>
+                                                ()
+                                                                            <span class="method-result">array</span>
+                                            </div>
+                                                                                <div class="method-definition">
+                        <img src="images/Method.png" alt=" "/>
+                        <a href="#getCMY" title="details" class="method-name">getCMY</a>
+                                                ()
+                                                                            <span class="method-result">array</span>
+                                            </div>
+                                                                                <div class="method-definition">
+                        <img src="images/Method.png" alt=" "/>
+                        <a href="#getCMYK" title="details" class="method-name">getCMYK</a>
+                                                ()
+                                                                            <span class="method-result">array</span>
+                                            </div>
+                                                                                <div class="method-definition">
+                        <img src="images/Method.png" alt=" "/>
+                        <a href="#getComplement" title="details" class="method-name">getComplement</a>
+                                                ()
+                                                                            <span class="method-result"><a rel="contents" href="HSLColor/HSLColor.html">HSLColor</a></span>
+                                            </div>
+                                                                                <div class="method-definition">
+                        <img src="images/Method.png" alt=" "/>
+                        <a href="#getHSL" title="details" class="method-name">getHSL</a>
+                                                ()
+                                                                            <span class="method-result">array</span>
+                                            </div>
+                                                                                <div class="method-definition">
+                        <img src="images/Method.png" alt=" "/>
+                        <a href="#getHSV" title="details" class="method-name">getHSV</a>
+                                                ()
+                                                                            <span class="method-result">array</span>
+                                            </div>
+                                                                                <div class="method-definition">
+                        <img src="images/Method.png" alt=" "/>
+                        <a href="#getRGB" title="details" class="method-name">getRGB</a>
+                                                ()
+                                                                            <span class="method-result">array</span>
+                                            </div>
+                                                                                <div class="method-definition">
+                        <img src="images/Method.png" alt=" "/>
+                        <a href="#getRGBString" title="details" class="method-name">getRGBString</a>
+                                                ()
+                                                                            <span class="method-result">string</span>
+                                            </div>
+                                                                                <div class="method-definition">
+                        <img src="images/Method.png" alt=" "/>
+                        <a href="#getSplitComplements" title="details" class="method-name">getSplitComplements</a>
+                                                ()
+                                                                            <span class="method-result">array</span>
+                                            </div>
+                                                                                <div class="method-definition">
+                        <img src="images/Method.png" alt=" "/>
+                        <a href="#getTriadic" title="details" class="method-name">getTriadic</a>
+                                                ()
+                                                                            <span class="method-result">array</span>
+                                            </div>
+                                                                                                                        <div class="method-definition">
+                        <img src="images/Method.png" alt=" "/>
+                        <a href="#setCMY" title="details" class="method-name">setCMY</a>
+                                                    (<span class="var-type">float</span>&nbsp;<span class="var-name">$cyan</span>, <span class="var-type">float</span>&nbsp;<span class="var-name">$magenta</span>, <span class="var-type">float</span>&nbsp;<span class="var-name">$yellow</span>)
+                                                                            <span class="method-result">void</span>
+                                            </div>
+                                                                                <div class="method-definition">
+                        <img src="images/Method.png" alt=" "/>
+                        <a href="#setCMYK" title="details" class="method-name">setCMYK</a>
+                                                    (<span class="var-type">float</span>&nbsp;<span class="var-name">$cyan</span>, <span class="var-type">float</span>&nbsp;<span class="var-name">$magenta</span>, <span class="var-type">float</span>&nbsp;<span class="var-name">$yellow</span>, <span class="var-type">float</span>&nbsp;<span class="var-name">$key</span>)
+                                                                            <span class="method-result">void</span>
+                                            </div>
+                                                                                <div class="method-definition">
+                        <img src="images/Method.png" alt=" "/>
+                        <a href="#setHSL" title="details" class="method-name">setHSL</a>
+                                                    (<span class="var-type">float</span>&nbsp;<span class="var-name">$hue</span>, <span class="var-type">float</span>&nbsp;<span class="var-name">$saturation</span>, <span class="var-type">float</span>&nbsp;<span class="var-name">$lightness</span>)
+                                                                            <span class="method-result">void</span>
+                                            </div>
+                                                                                <div class="method-definition">
+                        <img src="images/Method.png" alt=" "/>
+                        <a href="#setHSV" title="details" class="method-name">setHSV</a>
+                                                    (<span class="var-type">float</span>&nbsp;<span class="var-name">$hue</span>, <span class="var-type">float</span>&nbsp;<span class="var-name">$saturation</span>, <span class="var-type">float</span>&nbsp;<span class="var-name">$value</span>)
+                                                                            <span class="method-result">void</span>
+                                            </div>
+                                                                                <div class="method-definition">
+                        <img src="images/Method.png" alt=" "/>
+                        <a href="#setRGB" title="details" class="method-name">setRGB</a>
+                                                    (<span class="var-type">integer</span>&nbsp;<span class="var-name">$red</span>, <span class="var-type">integer</span>&nbsp;<span class="var-name">$green</span>, <span class="var-type">integer</span>&nbsp;<span class="var-name">$blue</span>)
+                                                                            <span class="method-result">void</span>
+                                            </div>
+                                                                                <div class="method-definition">
+                        <img src="images/Method.png" alt=" "/>
+                        <a href="#setRGBString" title="details" class="method-name">setRGBString</a>
+                                                    (<span class="var-type">string</span>&nbsp;<span class="var-name">$html_string</span>)
+                                                                            <span class="method-result">void</span>
+                                            </div>
+                                                                                <div class="method-definition">
+                        <img src="images/PrivateMethod.png" alt=" "/>
+                        <a href="#splitRGBString" title="details" class="method-name">splitRGBString</a>
+                                                    (<span class="var-type">string</span>&nbsp;<span class="var-name">$html_string</span>)
+                                                                            <span class="method-result">array</span>
+                                            </div>
+                                                        </div>
+            </div>
+        </div>		
+    
+            <a name="sec-vars"></a>
+        <div class="info-box">
+            <div class="info-box-title">Variables</div>
+            <div class="nav-bar">
+                <a href="#sec-description">Description</a> |
+                                                    <a href="#sec-var-summary">Vars</a> (<span class="disabled">details</span>)
+                			
+                
+                                                    | 
+                                            <a href="#sec-method-summary">Methods</a> (<a href="#sec-methods">details</a>)
+                    			
+                            </div>
+            <div class="info-box-body">
+                <a name="$_colorData" id="$_colorData"><!-- --></A>
+<div class="evenrow">
+
+	<div class="var-header">
+		<img src="images/PrivateVariable.png" />
+		<span class="var-title">
+			static <span class="var-type">array</span>
+			<span class="var-name">$_colorData</span>
+			 = <span class="var-default">array(<br />		'aliceblue'            =&gt; array(<br />									  'hex' =&gt; '#F0F8FF',<br />									  'rgb' =&gt; array( 'r' =&gt; 240, 'g' =&gt; 248, 'b' =&gt; 255, ),'hsl'=&gt;array('h'=&gt;208.000,'s'=&gt;1.000,'l'=&gt;0.971,),'hsv'=&gt;array('h'=&gt;208.000,'s'=&gt;0.059,'v'=&gt;1.000,),'cmy'=&gt;array('c'=&gt;0.059,'m'=&gt;0.027,'y'=&gt;0.000,),'cmyk'=&gt;array('c'=&gt;0.059,'m'=&gt;0.027,'y'=&gt;0.000,'k'=&gt;0.000,),),'antiquewhite'=&gt;array('hex'=&gt;'#FAEBD7','rgb'=&gt;array('r'=&gt;250,'g'=&gt;235,'b'=&gt;215,),'hsl'=&gt;array('h'=&gt;34.286,'s'=&gt;0.778,'l'=&gt;0.912,),'hsv'=&gt;array('h'=&gt;34.286,'s'=&gt;0.140,'v'=&gt;0.980,),'cmy'=&gt;array('c'=&gt;0.020,'m'=&gt;0.078,'y'=&gt;0.157,),'cmyk'=&gt;array('c'=&gt;0.000,'m'=&gt;0.060,'y'=&gt;0.140,'k'=&gt;0.020,),),'aqua'=&gt;array('hex'=&gt;'#00FFFF','rgb'=&gt;array('r'=&gt;0,'g'=&gt;255,'b'=&gt;255,),'hsl'=&gt;array('h'=&gt;180.000,'s'=&gt;1.000,'l'=&gt;0.500,),'hsv'=&gt;array('h'=&gt;180.000,'s'=&gt;1.000,'v'=&gt;1.000,),'cmy'=&gt;array('c'=&gt;1.000,'m'=&gt;0.000,'y'=&gt;0.000,),'cmyk'=&gt;array('c'=&gt;1.000,'m'=&gt;0.000,'y'=&gt;0.000,'k'=&gt;0.000,),),'aquamarine'=&gt;array('hex'=&gt;'#7FFFD4','rgb'=&gt;array('r'=&gt;127,'g'=&gt;255,'b'=&gt;212,),'hsl'=&gt;array('h'=&gt;159.844,'s'=&gt;1.000,'l'=&gt;0.749,),'hsv'=&gt;array('h'=&gt;159.844,'s'=&gt;0.502,'v'=&gt;1.000,),'cmy'=&gt;array('c'=&gt;0.502,'m'=&gt;0.000,'y'=&gt;0.169,),'cmyk'=&gt;array('c'=&gt;0.502,'m'=&gt;0.000,'y'=&gt;0.169,'k'=&gt;0.000,),),'azure'=&gt;array('hex'=&gt;'#F0FFFF','rgb'=&gt;array('r'=&gt;240,'g'=&gt;255,'b'=&gt;255,),'hsl'=&gt;array('h'=&gt;180.000,'s'=&gt;1.000,'l'=&gt;0.971,),'hsv'=&gt;array('h'=&gt;180.000,'s'=&gt;0.059,'v'=&gt;1.000,),'cmy'=&gt;array('c'=&gt;0.059,'m'=&gt;0.000,'y'=&gt;0.000,),'cmyk'=&gt;array('c'=&gt;0.059,'m'=&gt;0.000,'y'=&gt;0.000,'k'=&gt;0.000,),),'beige'=&gt;array('hex'=&gt;'#F5F5DC','rgb'=&gt;array('r'=&gt;245,'g'=&gt;245,'b'=&gt;220,),'hsl'=&gt;array('h'=&gt;60.000,'s'=&gt;0.556,'l'=&gt;0.912,),'hsv'=&gt;array('h'=&gt;60.000,'s'=&gt;0.102,'v'=&gt;0.961,),'cmy'=&gt;array('c'=&gt;0.039,'m'=&gt;0.039,'y'=&gt;0.137,),'cmyk'=&gt;array('c'=&gt;0.000,'m'=&gt;0.000,'y'=&gt;0.102,'k'=&gt;0.039,),),'bisque'=&gt;array('hex'=&gt;'#FFE4C4','rgb'=&gt;array('r'=&gt;255,'g'=&gt;228,'b'=&gt;196,),'hsl'=&gt;array('h'=&gt;32.542,'s'=&gt;1.000,'l'=&gt;0.884,),'hsv'=&gt;array('h'=&gt;32.542,'s'=&gt;0.231,'v'=&gt;1.000,),'cmy'=&gt;array('c'=&gt;0.000,'m'=&gt;0.106,'y'=&gt;0.231,),'cmyk'=&gt;array('c'=&gt;0.000,'m'=&gt;0.106,'y'=&gt;0.231,'k'=&gt;0.000,),),'black'=&gt;array('hex'=&gt;'#000000','rgb'=&gt;array('r'=&gt;0,'g'=&gt;0,'b'=&gt;0,),'hsl'=&gt;array('h'=&gt;0.000,'s'=&gt;0.000,'l'=&gt;0.000,),'hsv'=&gt;array('h'=&gt;0.000,'s'=&gt;0.000,'v'=&gt;0.000,),'cmy'=&gt;array('c'=&gt;1.000,'m'=&gt;1.000,'y'=&gt;1.000,),'cmyk'=&gt;array('c'=&gt;0.000,'m'=&gt;0.000,'y'=&gt;0.000,'k'=&gt;1.000,),),'blanchedalmond'=&gt;array('hex'=&gt;'#FFEBCD','rgb'=&gt;array('r'=&gt;255,'g'=&gt;235,'b'=&gt;205,),'hsl'=&gt;array('h'=&gt;36.000,'s'=&gt;1.000,'l'=&gt;0.902,),'hsv'=&gt;array('h'=&gt;36.000,'s'=&gt;0.196,'v'=&gt;1.000,),'cmy'=&gt;array('c'=&gt;0.000,'m'=&gt;0.078,'y'=&gt;0.196,),'cmyk'=&gt;array('c'=&gt;0.000,'m'=&gt;0.078,'y'=&gt;0.196,'k'=&gt;0.000,),),'blue'=&gt;array('hex'=&gt;'#0000FF','rgb'=&gt;array('r'=&gt;0,'g'=&gt;0,'b'=&gt;255,),'hsl'=&gt;array('h'=&gt;240.000,'s'=&gt;1.000,'l'=&gt;0.500,),'hsv'=&gt;array('h'=&gt;240.000,'s'=&gt;1.000,'v'=&gt;1.000,),'cmy'=&gt;array('c'=&gt;1.000,'m'=&gt;1.000,'y'=&gt;0.000,),'cmyk'=&gt;array('c'=&gt;1.000,'m'=&gt;1.000,'y'=&gt;0.000,'k'=&gt;0.000,),),'blueviolet'=&gt;array('hex'=&gt;'#8A2BE2','rgb'=&gt;array('r'=&gt;138,'g'=&gt;43,'b'=&gt;226,),'hsl'=&gt;array('h'=&gt;271.148,'s'=&gt;0.759,'l'=&gt;0.527,),'hsv'=&gt;array('h'=&gt;271.148,'s'=&gt;0.810,'v'=&gt;0.886,),'cmy'=&gt;array('c'=&gt;0.459,'m'=&gt;0.831,'y'=&gt;0.114,),'cmyk'=&gt;array('c'=&gt;0.389,'m'=&gt;0.810,'y'=&gt;0.000,'k'=&gt;0.114,),),'brown'=&gt;array('hex'=&gt;'#A52A2A','rgb'=&gt;array('r'=&gt;165,'g'=&gt;42,'b'=&gt;42,),'hsl'=&gt;array('h'=&gt;0.000,'s'=&gt;0.594,'l'=&gt;0.406,),'hsv'=&gt;array('h'=&gt;0.000,'s'=&gt;0.745,'v'=&gt;0.647,),'cmy'=&gt;array('c'=&gt;0.353,'m'=&gt;0.835,'y'=&gt;0.835,),'cmyk'=&gt;array('c'=&gt;0.000,'m'=&gt;0.745,'y'=&gt;0.745,'k'=&gt;0.353,),),'burlywood'=&gt;array('hex'=&gt;'#DEB887','rgb'=&gt;array('r'=&gt;222,'g'=&gt;184,'b'=&gt;135,),'hsl'=&gt;array('h'=&gt;33.793,'s'=&gt;0.569,'l'=&gt;0.700,),'hsv'=&gt;array('h'=&gt;33.793,'s'=&gt;0.392,'v'=&gt;0.871,),'cmy'=&gt;array('c'=&gt;0.129,'m'=&gt;0.278,'y'=&gt;0.471,),'cmyk'=&gt;array('c'=&gt;0.000,'m'=&gt;0.171,'y'=&gt;0.392,'k'=&gt;0.129,),),'cadetblue'=&gt;array('hex'=&gt;'#5F9EA0','rgb'=&gt;array('r'=&gt;95,'g'=&gt;158,'b'=&gt;160,),'hsl'=&gt;array('h'=&gt;181.846,'s'=&gt;0.255,'l'=&gt;0.500,),'hsv'=&gt;array('h'=&gt;181.846,'s'=&gt;0.406,'v'=&gt;0.627,),'cmy'=&gt;array('c'=&gt;0.627,'m'=&gt;0.380,'y'=&gt;0.373,),'cmyk'=&gt;array('c'=&gt;0.406,'m'=&gt;0.013,'y'=&gt;0.000,'k'=&gt;0.373,),),'chartreuse'=&gt;array('hex'=&gt;'#7FFF00','rgb'=&gt;array('r'=&gt;127,'g'=&gt;255,'b'=&gt;0,),'hsl'=&gt;array('h'=&gt;90.118,'s'=&gt;1.000,'l'=&gt;0.500,),'hsv'=&gt;array('h'=&gt;90.118,'s'=&gt;1.000,'v'=&gt;1.000,),'cmy'=&gt;array('c'=&gt;0.502,'m'=&gt;0.000,'y'=&gt;1.000,),'cmyk'=&gt;array('c'=&gt;0.502,'m'=&gt;0.000,'y'=&gt;1.000,'k'=&gt;0.000,),),'chocolate'=&gt;array('hex'=&gt;'#D2691E','rgb'=&gt;array('r'=&gt;210,'g'=&gt;105,'b'=&gt;30,),'hsl'=&gt;array('h'=&gt;25.000,'s'=&gt;0.750,'l'=&gt;0.471,),'hsv'=&gt;array('h'=&gt;25.000,'s'=&gt;0.857,'v'=&gt;0.824,),'cmy'=&gt;array('c'=&gt;0.176,'m'=&gt;0.588,'y'=&gt;0.882,),'cmyk'=&gt;array('c'=&gt;0.000,'m'=&gt;0.500,'y'=&gt;0.857,'k'=&gt;0.176,),),'coral'=&gt;array('hex'=&gt;'#FF7F50','rgb'=&gt;array('r'=&gt;255,'g'=&gt;127,'b'=&gt;80,),'hsl'=&gt;array('h'=&gt;16.114,'s'=&gt;1.000,'l'=&gt;0.657,),'hsv'=&gt;array('h'=&gt;16.114,'s'=&gt;0.686,'v'=&gt;1.000,),'cmy'=&gt;array('c'=&gt;0.000,'m'=&gt;0.502,'y'=&gt;0.686,),'cmyk'=&gt;array('c'=&gt;0.000,'m'=&gt;0.502,'y'=&gt;0.686,'k'=&gt;0.000,),),'cornflowerblue'=&gt;array('hex'=&gt;'#6495ED','rgb'=&gt;array('r'=&gt;100,'g'=&gt;149,'b'=&gt;237,),'hsl'=&gt;array('h'=&gt;218.540,'s'=&gt;0.792,'l'=&gt;0.661,),'hsv'=&gt;array('h'=&gt;218.540,'s'=&gt;0.578,'v'=&gt;0.929,),'cmy'=&gt;array('c'=&gt;0.608,'m'=&gt;0.416,'y'=&gt;0.071,),'cmyk'=&gt;array('c'=&gt;0.578,'m'=&gt;0.371,'y'=&gt;0.000,'k'=&gt;0.071,),),'cornsilk'=&gt;array('hex'=&gt;'#FFF8DC','rgb'=&gt;array('r'=&gt;255,'g'=&gt;248,'b'=&gt;220,),'hsl'=&gt;array('h'=&gt;48.000,'s'=&gt;1.000,'l'=&gt;0.931,),'hsv'=&gt;array('h'=&gt;48.000,'s'=&gt;0.137,'v'=&gt;1.000,),'cmy'=&gt;array('c'=&gt;0.000,'m'=&gt;0.027,'y'=&gt;0.137,),'cmyk'=&gt;array('c'=&gt;0.000,'m'=&gt;0.027,'y'=&gt;0.137,'k'=&gt;0.000,),),'crimson'=&gt;array('hex'=&gt;'#DC143C','rgb'=&gt;array('r'=&gt;220,'g'=&gt;20,'b'=&gt;60,),'hsl'=&gt;array('h'=&gt;348.000,'s'=&gt;0.833,'l'=&gt;0.471,),'hsv'=&gt;array('h'=&gt;348.000,'s'=&gt;0.909,'v'=&gt;0.863,),'cmy'=&gt;array('c'=&gt;0.137,'m'=&gt;0.922,'y'=&gt;0.765,),'cmyk'=&gt;array('c'=&gt;0.000,'m'=&gt;0.909,'y'=&gt;0.727,'k'=&gt;0.137,),),'cyan'=&gt;array('hex'=&gt;'#00FFFF','rgb'=&gt;array('r'=&gt;0,'g'=&gt;255,'b'=&gt;255,),'hsl'=&gt;array('h'=&gt;180.000,'s'=&gt;1.000,'l'=&gt;0.500,),'hsv'=&gt;array('h'=&gt;180.000,'s'=&gt;1.000,'v'=&gt;1.000,),'cmy'=&gt;array('c'=&gt;1.000,'m'=&gt;0.000,'y'=&gt;0.000,),'cmyk'=&gt;array('c'=&gt;1.000,'m'=&gt;0.000,'y'=&gt;0.000,'k'=&gt;0.000,),),'darkblue'=&gt;array('hex'=&gt;'#00008B','rgb'=&gt;array('r'=&gt;0,'g'=&gt;0,'b'=&gt;139,),'hsl'=&gt;array('h'=&gt;240.000,'s'=&gt;1.000,'l'=&gt;0.273,),'hsv'=&gt;array('h'=&gt;240.000,'s'=&gt;1.000,'v'=&gt;0.545,),'cmy'=&gt;array('c'=&gt;1.000,'m'=&gt;1.000,'y'=&gt;0.455,),'cmyk'=&gt;array('c'=&gt;1.000,'m'=&gt;1.000,'y'=&gt;0.000,'k'=&gt;0.455,),),'darkcyan'=&gt;array('hex'=&gt;'#008B8B','rgb'=&gt;array('r'=&gt;0,'g'=&gt;139,'b'=&gt;139,),'hsl'=&gt;array('h'=&gt;180.000,'s'=&gt;1.000,'l'=&gt;0.273,),'hsv'=&gt;array('h'=&gt;180.000,'s'=&gt;1.000,'v'=&gt;0.545,),'cmy'=&gt;array('c'=&gt;1.000,'m'=&gt;0.455,'y'=&gt;0.455,),'cmyk'=&gt;array('c'=&gt;1.000,'m'=&gt;0.000,'y'=&gt;0.000,'k'=&gt;0.455,),),'darkgoldenrod'=&gt;array('hex'=&gt;'#B8860B','rgb'=&gt;array('r'=&gt;184,'g'=&gt;134,'b'=&gt;11,),'hsl'=&gt;array('h'=&gt;42.659,'s'=&gt;0.887,'l'=&gt;0.382,),'hsv'=&gt;array('h'=&gt;42.659,'s'=&gt;0.940,'v'=&gt;0.722,),'cmy'=&gt;array('c'=&gt;0.278,'m'=&gt;0.475,'y'=&gt;0.957,),'cmyk'=&gt;array('c'=&gt;0.000,'m'=&gt;0.272,'y'=&gt;0.940,'k'=&gt;0.278,),),'darkgray'=&gt;array('hex'=&gt;'#A9A9A9','rgb'=&gt;array('r'=&gt;169,'g'=&gt;169,'b'=&gt;169,),'hsl'=&gt;array('h'=&gt;0.000,'s'=&gt;0.000,'l'=&gt;0.663,),'hsv'=&gt;array('h'=&gt;0.000,'s'=&gt;0.000,'v'=&gt;0.663,),'cmy'=&gt;array('c'=&gt;0.337,'m'=&gt;0.337,'y'=&gt;0.337,),'cmyk'=&gt;array('c'=&gt;0.000,'m'=&gt;0.000,'y'=&gt;0.000,'k'=&gt;0.337,),),'darkgreen'=&gt;array('hex'=&gt;'#006400','rgb'=&gt;array('r'=&gt;0,'g'=&gt;100,'b'=&gt;0,),'hsl'=&gt;array('h'=&gt;120.000,'s'=&gt;1.000,'l'=&gt;0.196,),'hsv'=&gt;array('h'=&gt;120.000,'s'=&gt;1.000,'v'=&gt;0.392,),'cmy'=&gt;array('c'=&gt;1.000,'m'=&gt;0.608,'y'=&gt;1.000,),'cmyk'=&gt;array('c'=&gt;1.000,'m'=&gt;0.000,'y'=&gt;1.000,'k'=&gt;0.608,),),'darkgrey'=&gt;array('hex'=&gt;'#A9A9A9','rgb'=&gt;array('r'=&gt;169,'g'=&gt;169,'b'=&gt;169,),'hsl'=&gt;array('h'=&gt;0.000,'s'=&gt;0.000,'l'=&gt;0.663,),'hsv'=&gt;array('h'=&gt;0.000,'s'=&gt;0.000,'v'=&gt;0.663,),'cmy'=&gt;array('c'=&gt;0.337,'m'=&gt;0.337,'y'=&gt;0.337,),'cmyk'=&gt;array('c'=&gt;0.000,'m'=&gt;0.000,'y'=&gt;0.000,'k'=&gt;0.337,),),'darkkhaki'=&gt;array('hex'=&gt;'#BDB76B','rgb'=&gt;array('r'=&gt;189,'g'=&gt;183,'b'=&gt;107,),'hsl'=&gt;array('h'=&gt;55.610,'s'=&gt;0.383,'l'=&gt;0.580,),'hsv'=&gt;array('h'=&gt;55.610,'s'=&gt;0.434,'v'=&gt;0.741,),'cmy'=&gt;array('c'=&gt;0.259,'m'=&gt;0.282,'y'=&gt;0.580,),'cmyk'=&gt;array('c'=&gt;0.000,'m'=&gt;0.032,'y'=&gt;0.434,'k'=&gt;0.259,),),'darkmagenta'=&gt;array('hex'=&gt;'#8B008B','rgb'=&gt;array('r'=&gt;139,'g'=&gt;0,'b'=&gt;139,),'hsl'=&gt;array('h'=&gt;300.000,'s'=&gt;1.000,'l'=&gt;0.273,),'hsv'=&gt;array('h'=&gt;300.000,'s'=&gt;1.000,'v'=&gt;0.545,),'cmy'=&gt;array('c'=&gt;0.455,'m'=&gt;1.000,'y'=&gt;0.455,),'cmyk'=&gt;array('c'=&gt;0.000,'m'=&gt;1.000,'y'=&gt;0.000,'k'=&gt;0.455,),),'darkolivegreen'=&gt;array('hex'=&gt;'#556B2F','rgb'=&gt;array('r'=&gt;85,'g'=&gt;107,'b'=&gt;47,),'hsl'=&gt;array('h'=&gt;82.000,'s'=&gt;0.390,'l'=&gt;0.302,),'hsv'=&gt;array('h'=&gt;82.000,'s'=&gt;0.561,'v'=&gt;0.420,),'cmy'=&gt;array('c'=&gt;0.667,'m'=&gt;0.580,'y'=&gt;0.816,),'cmyk'=&gt;array('c'=&gt;0.206,'m'=&gt;0.000,'y'=&gt;0.561,'k'=&gt;0.580,),),'darkorange'=&gt;array('hex'=&gt;'#FF8C00','rgb'=&gt;array('r'=&gt;255,'g'=&gt;140,'b'=&gt;0,),'hsl'=&gt;array('h'=&gt;32.941,'s'=&gt;1.000,'l'=&gt;0.500,),'hsv'=&gt;array('h'=&gt;32.941,'s'=&gt;1.000,'v'=&gt;1.000,),'cmy'=&gt;array('c'=&gt;0.000,'m'=&gt;0.451,'y'=&gt;1.000,),'cmyk'=&gt;array('c'=&gt;0.000,'m'=&gt;0.451,'y'=&gt;1.000,'k'=&gt;0.000,),),'darkorchid'=&gt;array('hex'=&gt;'#9932CC','rgb'=&gt;array('r'=&gt;153,'g'=&gt;50,'b'=&gt;204,),'hsl'=&gt;array('h'=&gt;280.130,'s'=&gt;0.606,'l'=&gt;0.498,),'hsv'=&gt;array('h'=&gt;280.130,'s'=&gt;0.755,'v'=&gt;0.800,),'cmy'=&gt;array('c'=&gt;0.400,'m'=&gt;0.804,'y'=&gt;0.200,),'cmyk'=&gt;array('c'=&gt;0.250,'m'=&gt;0.755,'y'=&gt;0.000,'k'=&gt;0.200,),),'darkred'=&gt;array('hex'=&gt;'#8B0000','rgb'=&gt;array('r'=&gt;139,'g'=&gt;0,'b'=&gt;0,),'hsl'=&gt;array('h'=&gt;0.000,'s'=&gt;1.000,'l'=&gt;0.273,),'hsv'=&gt;array('h'=&gt;0.000,'s'=&gt;1.000,'v'=&gt;0.545,),'cmy'=&gt;array('c'=&gt;0.455,'m'=&gt;1.000,'y'=&gt;1.000,),'cmyk'=&gt;array('c'=&gt;0.000,'m'=&gt;1.000,'y'=&gt;1.000,'k'=&gt;0.455,),),'darksalmon'=&gt;array('hex'=&gt;'#E9967A','rgb'=&gt;array('r'=&gt;233,'g'=&gt;150,'b'=&gt;122,),'hsl'=&gt;array('h'=&gt;15.135,'s'=&gt;0.716,'l'=&gt;0.696,),'hsv'=&gt;array('h'=&gt;15.135,'s'=&gt;0.476,'v'=&gt;0.914,),'cmy'=&gt;array('c'=&gt;0.086,'m'=&gt;0.412,'y'=&gt;0.522,),'cmyk'=&gt;array('c'=&gt;0.000,'m'=&gt;0.356,'y'=&gt;0.476,'k'=&gt;0.086,),),'darkseagreen'=&gt;array('hex'=&gt;'#8FBC8F','rgb'=&gt;array('r'=&gt;143,'g'=&gt;188,'b'=&gt;143,),'hsl'=&gt;array('h'=&gt;120.000,'s'=&gt;0.251,'l'=&gt;0.649,),'hsv'=&gt;array('h'=&gt;120.000,'s'=&gt;0.239,'v'=&gt;0.737,),'cmy'=&gt;array('c'=&gt;0.439,'m'=&gt;0.263,'y'=&gt;0.439,),'cmyk'=&gt;array('c'=&gt;0.239,'m'=&gt;0.000,'y'=&gt;0.239,'k'=&gt;0.263,),),'darkslateblue'=&gt;array('hex'=&gt;'#483D8B','rgb'=&gt;array('r'=&gt;72,'g'=&gt;61,'b'=&gt;139,),'hsl'=&gt;array('h'=&gt;248.462,'s'=&gt;0.390,'l'=&gt;0.392,),'hsv'=&gt;array('h'=&gt;248.462,'s'=&gt;0.561,'v'=&gt;0.545,),'cmy'=&gt;array('c'=&gt;0.718,'m'=&gt;0.761,'y'=&gt;0.455,),'cmyk'=&gt;array('c'=&gt;0.482,'m'=&gt;0.561,'y'=&gt;0.000,'k'=&gt;0.455,),),'darkslategray'=&gt;array('hex'=&gt;'#2F4F4F','rgb'=&gt;array('r'=&gt;47,'g'=&gt;79,'b'=&gt;79,),'hsl'=&gt;array('h'=&gt;180.000,'s'=&gt;0.254,'l'=&gt;0.247,),'hsv'=&gt;array('h'=&gt;180.000,'s'=&gt;0.405,'v'=&gt;0.310,),'cmy'=&gt;array('c'=&gt;0.816,'m'=&gt;0.690,'y'=&gt;0.690,),'cmyk'=&gt;array('c'=&gt;0.405,'m'=&gt;0.000,'y'=&gt;0.000,'k'=&gt;0.690,),),'darkslategrey'=&gt;array('hex'=&gt;'#2F4F4F','rgb'=&gt;array('r'=&gt;47,'g'=&gt;79,'b'=&gt;79,),'hsl'=&gt;array('h'=&gt;180.000,'s'=&gt;0.254,'l'=&gt;0.247,),'hsv'=&gt;array('h'=&gt;180.000,'s'=&gt;0.405,'v'=&gt;0.310,),'cmy'=&gt;array('c'=&gt;0.816,'m'=&gt;0.690,'y'=&gt;0.690,),'cmyk'=&gt;array('c'=&gt;0.405,'m'=&gt;0.000,'y'=&gt;0.000,'k'=&gt;0.690,),),'darkturquoise'=&gt;array('hex'=&gt;'#00CED1','rgb'=&gt;array('r'=&gt;0,'g'=&gt;206,'b'=&gt;209,),'hsl'=&gt;array('h'=&gt;180.861,'s'=&gt;1.000,'l'=&gt;0.410,),'hsv'=&gt;array('h'=&gt;180.861,'s'=&gt;1.000,'v'=&gt;0.820,),'cmy'=&gt;array('c'=&gt;1.000,'m'=&gt;0.192,'y'=&gt;0.180,),'cmyk'=&gt;array('c'=&gt;1.000,'m'=&gt;0.014,'y'=&gt;0.000,'k'=&gt;0.180,),),'darkviolet'=&gt;array('hex'=&gt;'#9400D3','rgb'=&gt;array('r'=&gt;148,'g'=&gt;0,'b'=&gt;211,),'hsl'=&gt;array('h'=&gt;282.085,'s'=&gt;1.000,'l'=&gt;0.414,),'hsv'=&gt;array('h'=&gt;282.085,'s'=&gt;1.000,'v'=&gt;0.827,),'cmy'=&gt;array('c'=&gt;0.420,'m'=&gt;1.000,'y'=&gt;0.173,),'cmyk'=&gt;array('c'=&gt;0.299,'m'=&gt;1.000,'y'=&gt;0.000,'k'=&gt;0.173,),),'deeppink'=&gt;array('hex'=&gt;'#FF1493','rgb'=&gt;array('r'=&gt;255,'g'=&gt;20,'b'=&gt;147,),'hsl'=&gt;array('h'=&gt;327.574,'s'=&gt;1.000,'l'=&gt;0.539,),'hsv'=&gt;array('h'=&gt;327.574,'s'=&gt;0.922,'v'=&gt;1.000,),'cmy'=&gt;array('c'=&gt;0.000,'m'=&gt;0.922,'y'=&gt;0.424,),'cmyk'=&gt;array('c'=&gt;0.000,'m'=&gt;0.922,'y'=&gt;0.424,'k'=&gt;0.000,),),'deepskyblue'=&gt;array('hex'=&gt;'#00BFFF','rgb'=&gt;array('r'=&gt;0,'g'=&gt;191,'b'=&gt;255,),'hsl'=&gt;array('h'=&gt;195.059,'s'=&gt;1.000,'l'=&gt;0.500,),'hsv'=&gt;array('h'=&gt;195.059,'s'=&gt;1.000,'v'=&gt;1.000,),'cmy'=&gt;array('c'=&gt;1.000,'m'=&gt;0.251,'y'=&gt;0.000,),'cmyk'=&gt;array('c'=&gt;1.000,'m'=&gt;0.251,'y'=&gt;0.000,'k'=&gt;0.000,),),'dimgray'=&gt;array('hex'=&gt;'#696969','rgb'=&gt;array('r'=&gt;105,'g'=&gt;105,'b'=&gt;105,),'hsl'=&gt;array('h'=&gt;0.000,'s'=&gt;0.000,'l'=&gt;0.412,),'hsv'=&gt;array('h'=&gt;0.000,'s'=&gt;0.000,'v'=&gt;0.412,),'cmy'=&gt;array('c'=&gt;0.588,'m'=&gt;0.588,'y'=&gt;0.588,),'cmyk'=&gt;array('c'=&gt;0.000,'m'=&gt;0.000,'y'=&gt;0.000,'k'=&gt;0.588,),),'dimgrey'=&gt;array('hex'=&gt;'#696969','rgb'=&gt;array('r'=&gt;105,'g'=&gt;105,'b'=&gt;105,),'hsl'=&gt;array('h'=&gt;0.000,'s'=&gt;0.000,'l'=&gt;0.412,),'hsv'=&gt;array('h'=&gt;0.000,'s'=&gt;0.000,'v'=&gt;0.412,),'cmy'=&gt;array('c'=&gt;0.588,'m'=&gt;0.588,'y'=&gt;0.588,),'cmyk'=&gt;array('c'=&gt;0.000,'m'=&gt;0.000,'y'=&gt;0.000,'k'=&gt;0.588,),),'dodgerblue'=&gt;array('hex'=&gt;'#1E90FF','rgb'=&gt;array('r'=&gt;30,'g'=&gt;144,'b'=&gt;255,),'hsl'=&gt;array('h'=&gt;209.600,'s'=&gt;1.000,'l'=&gt;0.559,),'hsv'=&gt;array('h'=&gt;209.600,'s'=&gt;0.882,'v'=&gt;1.000,),'cmy'=&gt;array('c'=&gt;0.882,'m'=&gt;0.435,'y'=&gt;0.000,),'cmyk'=&gt;array('c'=&gt;0.882,'m'=&gt;0.435,'y'=&gt;0.000,'k'=&gt;0.000,),),'firebrick'=&gt;array('hex'=&gt;'#B22222','rgb'=&gt;array('r'=&gt;178,'g'=&gt;34,'b'=&gt;34,),'hsl'=&gt;array('h'=&gt;0.000,'s'=&gt;0.679,'l'=&gt;0.416,),'hsv'=&gt;array('h'=&gt;0.000,'s'=&gt;0.809,'v'=&gt;0.698,),'cmy'=&gt;array('c'=&gt;0.302,'m'=&gt;0.867,'y'=&gt;0.867,),'cmyk'=&gt;array('c'=&gt;0.000,'m'=&gt;0.809,'y'=&gt;0.809,'k'=&gt;0.302,),),'floralwhite'=&gt;array('hex'=&gt;'#FFFAF0','rgb'=&gt;array('r'=&gt;255,'g'=&gt;250,'b'=&gt;240,),'hsl'=&gt;array('h'=&gt;40.000,'s'=&gt;1.000,'l'=&gt;0.971,),'hsv'=&gt;array('h'=&gt;40.000,'s'=&gt;0.059,'v'=&gt;1.000,),'cmy'=&gt;array('c'=&gt;0.000,'m'=&gt;0.020,'y'=&gt;0.059,),'cmyk'=&gt;array('c'=&gt;0.000,'m'=&gt;0.020,'y'=&gt;0.059,'k'=&gt;0.000,),),'forestgreen'=&gt;array('hex'=&gt;'#228B22','rgb'=&gt;array('r'=&gt;34,'g'=&gt;139,'b'=&gt;34,),'hsl'=&gt;array('h'=&gt;120.000,'s'=&gt;0.607,'l'=&gt;0.339,),'hsv'=&gt;array('h'=&gt;120.000,'s'=&gt;0.755,'v'=&gt;0.545,),'cmy'=&gt;array('c'=&gt;0.867,'m'=&gt;0.455,'y'=&gt;0.867,),'cmyk'=&gt;array('c'=&gt;0.755,'m'=&gt;0.000,'y'=&gt;0.755,'k'=&gt;0.455,),),'fuchsia'=&gt;array('hex'=&gt;'#FF00FF','rgb'=&gt;array('r'=&gt;255,'g'=&gt;0,'b'=&gt;255,),'hsl'=&gt;array('h'=&gt;300.000,'s'=&gt;1.000,'l'=&gt;0.500,),'hsv'=&gt;array('h'=&gt;300.000,'s'=&gt;1.000,'v'=&gt;1.000,),'cmy'=&gt;array('c'=&gt;0.000,'m'=&gt;1.000,'y'=&gt;0.000,),'cmyk'=&gt;array('c'=&gt;0.000,'m'=&gt;1.000,'y'=&gt;0.000,'k'=&gt;0.000,),),'gainsboro'=&gt;array('hex'=&gt;'#DCDCDC','rgb'=&gt;array('r'=&gt;220,'g'=&gt;220,'b'=&gt;220,),'hsl'=&gt;array('h'=&gt;0.000,'s'=&gt;0.000,'l'=&gt;0.863,),'hsv'=&gt;array('h'=&gt;0.000,'s'=&gt;0.000,'v'=&gt;0.863,),'cmy'=&gt;array('c'=&gt;0.137,'m'=&gt;0.137,'y'=&gt;0.137,),'cmyk'=&gt;array('c'=&gt;0.000,'m'=&gt;0.000,'y'=&gt;0.000,'k'=&gt;0.137,),),'ghostwhite'=&gt;array('hex'=&gt;'#F8F8FF','rgb'=&gt;array('r'=&gt;248,'g'=&gt;248,'b'=&gt;255,),'hsl'=&gt;array('h'=&gt;240.000,'s'=&gt;1.000,'l'=&gt;0.986,),'hsv'=&gt;array('h'=&gt;240.000,'s'=&gt;0.027,'v'=&gt;1.000,),'cmy'=&gt;array('c'=&gt;0.027,'m'=&gt;0.027,'y'=&gt;0.000,),'cmyk'=&gt;array('c'=&gt;0.027,'m'=&gt;0.027,'y'=&gt;0.000,'k'=&gt;0.000,),),'gold'=&gt;array('hex'=&gt;'#FFD700','rgb'=&gt;array('r'=&gt;255,'g'=&gt;215,'b'=&gt;0,),'hsl'=&gt;array('h'=&gt;50.588,'s'=&gt;1.000,'l'=&gt;0.500,),'hsv'=&gt;array('h'=&gt;50.588,'s'=&gt;1.000,'v'=&gt;1.000,),'cmy'=&gt;array('c'=&gt;0.000,'m'=&gt;0.157,'y'=&gt;1.000,),'cmyk'=&gt;array('c'=&gt;0.000,'m'=&gt;0.157,'y'=&gt;1.000,'k'=&gt;0.000,),),'goldenrod'=&gt;array('hex'=&gt;'#DAA520','rgb'=&gt;array('r'=&gt;218,'g'=&gt;165,'b'=&gt;32,),'hsl'=&gt;array('h'=&gt;42.903,'s'=&gt;0.744,'l'=&gt;0.490,),'hsv'=&gt;array('h'=&gt;42.903,'s'=&gt;0.853,'v'=&gt;0.855,),'cmy'=&gt;array('c'=&gt;0.145,'m'=&gt;0.353,'y'=&gt;0.875,),'cmyk'=&gt;array('c'=&gt;0.000,'m'=&gt;0.243,'y'=&gt;0.853,'k'=&gt;0.145,),),'gray'=&gt;array('hex'=&gt;'#808080','rgb'=&gt;array('r'=&gt;128,'g'=&gt;128,'b'=&gt;128,),'hsl'=&gt;array('h'=&gt;0.000,'s'=&gt;0.000,'l'=&gt;0.502,),'hsv'=&gt;array('h'=&gt;0.000,'s'=&gt;0.000,'v'=&gt;0.502,),'cmy'=&gt;array('c'=&gt;0.498,'m'=&gt;0.498,'y'=&gt;0.498,),'cmyk'=&gt;array('c'=&gt;0.000,'m'=&gt;0.000,'y'=&gt;0.000,'k'=&gt;0.498,),),'green'=&gt;array('hex'=&gt;'#008000','rgb'=&gt;array('r'=&gt;0,'g'=&gt;128,'b'=&gt;0,),'hsl'=&gt;array('h'=&gt;120.000,'s'=&gt;1.000,'l'=&gt;0.251,),'hsv'=&gt;array('h'=&gt;120.000,'s'=&gt;1.000,'v'=&gt;0.502,),'cmy'=&gt;array('c'=&gt;1.000,'m'=&gt;0.498,'y'=&gt;1.000,),'cmyk'=&gt;array('c'=&gt;1.000,'m'=&gt;0.000,'y'=&gt;1.000,'k'=&gt;0.498,),),'greenyellow'=&gt;array('hex'=&gt;'#ADFF2F','rgb'=&gt;array('r'=&gt;173,'g'=&gt;255,'b'=&gt;47,),'hsl'=&gt;array('h'=&gt;83.654,'s'=&gt;1.000,'l'=&gt;0.592,),'hsv'=&gt;array('h'=&gt;83.654,'s'=&gt;0.816,'v'=&gt;1.000,),'cmy'=&gt;array('c'=&gt;0.322,'m'=&gt;0.000,'y'=&gt;0.816,),'cmyk'=&gt;array('c'=&gt;0.322,'m'=&gt;0.000,'y'=&gt;0.816,'k'=&gt;0.000,),),'grey'=&gt;array('hex'=&gt;'#808080','rgb'=&gt;array('r'=&gt;128,'g'=&gt;128,'b'=&gt;128,),'hsl'=&gt;array('h'=&gt;0.000,'s'=&gt;0.000,'l'=&gt;0.502,),'hsv'=&gt;array('h'=&gt;0.000,'s'=&gt;0.000,'v'=&gt;0.502,),'cmy'=&gt;array('c'=&gt;0.498,'m'=&gt;0.498,'y'=&gt;0.498,),'cmyk'=&gt;array('c'=&gt;0.000,'m'=&gt;0.000,'y'=&gt;0.000,'k'=&gt;0.498,),),'honeydew'=&gt;array('hex'=&gt;'#F0FFF0','rgb'=&gt;array('r'=&gt;240,'g'=&gt;255,'b'=&gt;240,),'hsl'=&gt;array('h'=&gt;120.000,'s'=&gt;1.000,'l'=&gt;0.971,),'hsv'=&gt;array('h'=&gt;120.000,'s'=&gt;0.059,'v'=&gt;1.000,),'cmy'=&gt;array('c'=&gt;0.059,'m'=&gt;0.000,'y'=&gt;0.059,),'cmyk'=&gt;array('c'=&gt;0.059,'m'=&gt;0.000,'y'=&gt;0.059,'k'=&gt;0.000,),),'hotpink'=&gt;array('hex'=&gt;'#FF69B4','rgb'=&gt;array('r'=&gt;255,'g'=&gt;105,'b'=&gt;180,),'hsl'=&gt;array('h'=&gt;330.000,'s'=&gt;1.000,'l'=&gt;0.706,),'hsv'=&gt;array('h'=&gt;330.000,'s'=&gt;0.588,'v'=&gt;1.000,),'cmy'=&gt;array('c'=&gt;0.000,'m'=&gt;0.588,'y'=&gt;0.294,),'cmyk'=&gt;array('c'=&gt;0.000,'m'=&gt;0.588,'y'=&gt;0.294,'k'=&gt;0.000,),),'indianred'=&gt;array('hex'=&gt;'#CD5C5C','rgb'=&gt;array('r'=&gt;205,'g'=&gt;92,'b'=&gt;92,),'hsl'=&gt;array('h'=&gt;0.000,'s'=&gt;0.531,'l'=&gt;0.582,),'hsv'=&gt;array('h'=&gt;0.000,'s'=&gt;0.551,'v'=&gt;0.804,),'cmy'=&gt;array('c'=&gt;0.196,'m'=&gt;0.639,'y'=&gt;0.639,),'cmyk'=&gt;array('c'=&gt;0.000,'m'=&gt;0.551,'y'=&gt;0.551,'k'=&gt;0.196,),),'indigo'=&gt;array('hex'=&gt;'#4B0082','rgb'=&gt;array('r'=&gt;75,'g'=&gt;0,'b'=&gt;130,),'hsl'=&gt;array('h'=&gt;274.615,'s'=&gt;1.000,'l'=&gt;0.255,),'hsv'=&gt;array('h'=&gt;274.615,'s'=&gt;1.000,'v'=&gt;0.510,),'cmy'=&gt;array('c'=&gt;0.706,'m'=&gt;1.000,'y'=&gt;0.490,),'cmyk'=&gt;array('c'=&gt;0.423,'m'=&gt;1.000,'y'=&gt;0.000,'k'=&gt;0.490,),),'ivory'=&gt;array('hex'=&gt;'#FFFFF0','rgb'=&gt;array('r'=&gt;255,'g'=&gt;255,'b'=&gt;240,),'hsl'=&gt;array('h'=&gt;60.000,'s'=&gt;1.000,'l'=&gt;0.971,),'hsv'=&gt;array('h'=&gt;60.000,'s'=&gt;0.059,'v'=&gt;1.000,),'cmy'=&gt;array('c'=&gt;0.000,'m'=&gt;0.000,'y'=&gt;0.059,),'cmyk'=&gt;array('c'=&gt;0.000,'m'=&gt;0.000,'y'=&gt;0.059,'k'=&gt;0.000,),),'khaki'=&gt;array('hex'=&gt;'#F0E68C','rgb'=&gt;array('r'=&gt;240,'g'=&gt;230,'b'=&gt;140,),'hsl'=&gt;array('h'=&gt;54.000,'s'=&gt;0.769,'l'=&gt;0.745,),'hsv'=&gt;array('h'=&gt;54.000,'s'=&gt;0.417,'v'=&gt;0.941,),'cmy'=&gt;array('c'=&gt;0.059,'m'=&gt;0.098,'y'=&gt;0.451,),'cmyk'=&gt;array('c'=&gt;0.000,'m'=&gt;0.042,'y'=&gt;0.417,'k'=&gt;0.059,),),'lavender'=&gt;array('hex'=&gt;'#E6E6FA','rgb'=&gt;array('r'=&gt;230,'g'=&gt;230,'b'=&gt;250,),'hsl'=&gt;array('h'=&gt;240.000,'s'=&gt;0.667,'l'=&gt;0.941,),'hsv'=&gt;array('h'=&gt;240.000,'s'=&gt;0.080,'v'=&gt;0.980,),'cmy'=&gt;array('c'=&gt;0.098,'m'=&gt;0.098,'y'=&gt;0.020,),'cmyk'=&gt;array('c'=&gt;0.080,'m'=&gt;0.080,'y'=&gt;0.000,'k'=&gt;0.020,),),'lavenderblush'=&gt;array('hex'=&gt;'#FFF0F5','rgb'=&gt;array('r'=&gt;255,'g'=&gt;240,'b'=&gt;245,),'hsl'=&gt;array('h'=&gt;340.000,'s'=&gt;1.000,'l'=&gt;0.971,),'hsv'=&gt;array('h'=&gt;340.000,'s'=&gt;0.059,'v'=&gt;1.000,),'cmy'=&gt;array('c'=&gt;0.000,'m'=&gt;0.059,'y'=&gt;0.039,),'cmyk'=&gt;array('c'=&gt;0.000,'m'=&gt;0.059,'y'=&gt;0.039,'k'=&gt;0.000,),),'lawngreen'=&gt;array('hex'=&gt;'#7CFC00','rgb'=&gt;array('r'=&gt;124,'g'=&gt;252,'b'=&gt;0,),'hsl'=&gt;array('h'=&gt;90.476,'s'=&gt;1.000,'l'=&gt;0.494,),'hsv'=&gt;array('h'=&gt;90.476,'s'=&gt;1.000,'v'=&gt;0.988,),'cmy'=&gt;array('c'=&gt;0.514,'m'=&gt;0.012,'y'=&gt;1.000,),'cmyk'=&gt;array('c'=&gt;0.508,'m'=&gt;0.000,'y'=&gt;1.000,'k'=&gt;0.012,),),'lemonchiffon'=&gt;array('hex'=&gt;'#FFFACD','rgb'=&gt;array('r'=&gt;255,'g'=&gt;250,'b'=&gt;205,),'hsl'=&gt;array('h'=&gt;54.000,'s'=&gt;1.000,'l'=&gt;0.902,),'hsv'=&gt;array('h'=&gt;54.000,'s'=&gt;0.196,'v'=&gt;1.000,),'cmy'=&gt;array('c'=&gt;0.000,'m'=&gt;0.020,'y'=&gt;0.196,),'cmyk'=&gt;array('c'=&gt;0.000,'m'=&gt;0.020,'y'=&gt;0.196,'k'=&gt;0.000,),),'lightblue'=&gt;array('hex'=&gt;'#ADD8E6','rgb'=&gt;array('r'=&gt;173,'g'=&gt;216,'b'=&gt;230,),'hsl'=&gt;array('h'=&gt;194.737,'s'=&gt;0.533,'l'=&gt;0.790,),'hsv'=&gt;array('h'=&gt;194.737,'s'=&gt;0.248,'v'=&gt;0.902,),'cmy'=&gt;array('c'=&gt;0.322,'m'=&gt;0.153,'y'=&gt;0.098,),'cmyk'=&gt;array('c'=&gt;0.248,'m'=&gt;0.061,'y'=&gt;0.000,'k'=&gt;0.098,),),'lightcoral'=&gt;array('hex'=&gt;'#F08080','rgb'=&gt;array('r'=&gt;240,'g'=&gt;128,'b'=&gt;128,),'hsl'=&gt;array('h'=&gt;0.000,'s'=&gt;0.789,'l'=&gt;0.722,),'hsv'=&gt;array('h'=&gt;0.000,'s'=&gt;0.467,'v'=&gt;0.941,),'cmy'=&gt;array('c'=&gt;0.059,'m'=&gt;0.498,'y'=&gt;0.498,),'cmyk'=&gt;array('c'=&gt;0.000,'m'=&gt;0.467,'y'=&gt;0.467,'k'=&gt;0.059,),),'lightcyan'=&gt;array('hex'=&gt;'#E0FFFF','rgb'=&gt;array('r'=&gt;224,'g'=&gt;255,'b'=&gt;255,),'hsl'=&gt;array('h'=&gt;180.000,'s'=&gt;1.000,'l'=&gt;0.939,),'hsv'=&gt;array('h'=&gt;180.000,'s'=&gt;0.122,'v'=&gt;1.000,),'cmy'=&gt;array('c'=&gt;0.122,'m'=&gt;0.000,'y'=&gt;0.000,),'cmyk'=&gt;array('c'=&gt;0.122,'m'=&gt;0.000,'y'=&gt;0.000,'k'=&gt;0.000,),),'lightgoldenrodyellow'=&gt;array('hex'=&gt;'#FAFAD2','rgb'=&gt;array('r'=&gt;250,'g'=&gt;250,'b'=&gt;210,),'hsl'=&gt;array('h'=&gt;60.000,'s'=&gt;0.800,'l'=&gt;0.902,),'hsv'=&gt;array('h'=&gt;60.000,'s'=&gt;0.160,'v'=&gt;0.980,),'cmy'=&gt;array('c'=&gt;0.020,'m'=&gt;0.020,'y'=&gt;0.176,),'cmyk'=&gt;array('c'=&gt;0.000,'m'=&gt;0.000,'y'=&gt;0.160,'k'=&gt;0.020,),),'lightgray'=&gt;array('hex'=&gt;'#D3D3D3','rgb'=&gt;array('r'=&gt;211,'g'=&gt;211,'b'=&gt;211,),'hsl'=&gt;array('h'=&gt;0.000,'s'=&gt;0.000,'l'=&gt;0.827,),'hsv'=&gt;array('h'=&gt;0.000,'s'=&gt;0.000,'v'=&gt;0.827,),'cmy'=&gt;array('c'=&gt;0.173,'m'=&gt;0.173,'y'=&gt;0.173,),'cmyk'=&gt;array('c'=&gt;0.000,'m'=&gt;0.000,'y'=&gt;0.000,'k'=&gt;0.173,),),'lightgreen'=&gt;array('hex'=&gt;'#90EE90','rgb'=&gt;array('r'=&gt;144,'g'=&gt;238,'b'=&gt;144,),'hsl'=&gt;array('h'=&gt;120.000,'s'=&gt;0.734,'l'=&gt;0.749,),'hsv'=&gt;array('h'=&gt;120.000,'s'=&gt;0.395,'v'=&gt;0.933,),'cmy'=&gt;array('c'=&gt;0.435,'m'=&gt;0.067,'y'=&gt;0.435,),'cmyk'=&gt;array('c'=&gt;0.395,'m'=&gt;0.000,'y'=&gt;0.395,'k'=&gt;0.067,),),'lightgrey'=&gt;array('hex'=&gt;'#D3D3D3','rgb'=&gt;array('r'=&gt;211,'g'=&gt;211,'b'=&gt;211,),'hsl'=&gt;array('h'=&gt;0.000,'s'=&gt;0.000,'l'=&gt;0.827,),'hsv'=&gt;array('h'=&gt;0.000,'s'=&gt;0.000,'v'=&gt;0.827,),'cmy'=&gt;array('c'=&gt;0.173,'m'=&gt;0.173,'y'=&gt;0.173,),'cmyk'=&gt;array('c'=&gt;0.000,'m'=&gt;0.000,'y'=&gt;0.000,'k'=&gt;0.173,),),'lightpink'=&gt;array('hex'=&gt;'#FFB6C1','rgb'=&gt;array('r'=&gt;255,'g'=&gt;182,'b'=&gt;193,),'hsl'=&gt;array('h'=&gt;350.959,'s'=&gt;1.000,'l'=&gt;0.857,),'hsv'=&gt;array('h'=&gt;350.959,'s'=&gt;0.286,'v'=&gt;1.000,),'cmy'=&gt;array('c'=&gt;0.000,'m'=&gt;0.286,'y'=&gt;0.243,),'cmyk'=&gt;array('c'=&gt;0.000,'m'=&gt;0.286,'y'=&gt;0.243,'k'=&gt;0.000,),),'lightsalmon'=&gt;array('hex'=&gt;'#FFA07A','rgb'=&gt;array('r'=&gt;255,'g'=&gt;160,'b'=&gt;122,),'hsl'=&gt;array('h'=&gt;17.143,'s'=&gt;1.000,'l'=&gt;0.739,),'hsv'=&gt;array('h'=&gt;17.143,'s'=&gt;0.522,'v'=&gt;1.000,),'cmy'=&gt;array('c'=&gt;0.000,'m'=&gt;0.373,'y'=&gt;0.522,),'cmyk'=&gt;array('c'=&gt;0.000,'m'=&gt;0.373,'y'=&gt;0.522,'k'=&gt;0.000,),),'lightseagreen'=&gt;array('hex'=&gt;'#20B2AA','rgb'=&gt;array('r'=&gt;32,'g'=&gt;178,'b'=&gt;170,),'hsl'=&gt;array('h'=&gt;176.712,'s'=&gt;0.695,'l'=&gt;0.412,),'hsv'=&gt;array('h'=&gt;176.712,'s'=&gt;0.820,'v'=&gt;0.698,),'cmy'=&gt;array('c'=&gt;0.875,'m'=&gt;0.302,'y'=&gt;0.333,),'cmyk'=&gt;array('c'=&gt;0.820,'m'=&gt;0.000,'y'=&gt;0.045,'k'=&gt;0.302,),),'lightskyblue'=&gt;array('hex'=&gt;'#87CEFA','rgb'=&gt;array('r'=&gt;135,'g'=&gt;206,'b'=&gt;250,),'hsl'=&gt;array('h'=&gt;202.957,'s'=&gt;0.920,'l'=&gt;0.755,),'hsv'=&gt;array('h'=&gt;202.957,'s'=&gt;0.460,'v'=&gt;0.980,),'cmy'=&gt;array('c'=&gt;0.471,'m'=&gt;0.192,'y'=&gt;0.020,),'cmyk'=&gt;array('c'=&gt;0.460,'m'=&gt;0.176,'y'=&gt;0.000,'k'=&gt;0.020,),),'lightslategray'=&gt;array('hex'=&gt;'#778899','rgb'=&gt;array('r'=&gt;119,'g'=&gt;136,'b'=&gt;153,),'hsl'=&gt;array('h'=&gt;210.000,'s'=&gt;0.143,'l'=&gt;0.533,),'hsv'=&gt;array('h'=&gt;210.000,'s'=&gt;0.222,'v'=&gt;0.600,),'cmy'=&gt;array('c'=&gt;0.533,'m'=&gt;0.467,'y'=&gt;0.400,),'cmyk'=&gt;array('c'=&gt;0.222,'m'=&gt;0.111,'y'=&gt;0.000,'k'=&gt;0.400,),),'lightslategrey'=&gt;array('hex'=&gt;'#778899','rgb'=&gt;array('r'=&gt;119,'g'=&gt;136,'b'=&gt;153,),'hsl'=&gt;array('h'=&gt;210.000,'s'=&gt;0.143,'l'=&gt;0.533,),'hsv'=&gt;array('h'=&gt;210.000,'s'=&gt;0.222,'v'=&gt;0.600,),'cmy'=&gt;array('c'=&gt;0.533,'m'=&gt;0.467,'y'=&gt;0.400,),'cmyk'=&gt;array('c'=&gt;0.222,'m'=&gt;0.111,'y'=&gt;0.000,'k'=&gt;0.400,),),'lightsteelblue'=&gt;array('hex'=&gt;'#B0C4DE','rgb'=&gt;array('r'=&gt;176,'g'=&gt;196,'b'=&gt;222,),'hsl'=&gt;array('h'=&gt;213.913,'s'=&gt;0.411,'l'=&gt;0.780,),'hsv'=&gt;array('h'=&gt;213.913,'s'=&gt;0.207,'v'=&gt;0.871,),'cmy'=&gt;array('c'=&gt;0.310,'m'=&gt;0.231,'y'=&gt;0.129,),'cmyk'=&gt;array('c'=&gt;0.207,'m'=&gt;0.117,'y'=&gt;0.000,'k'=&gt;0.129,),),'lightyellow'=&gt;array('hex'=&gt;'#FFFFE0','rgb'=&gt;array('r'=&gt;255,'g'=&gt;255,'b'=&gt;224,),'hsl'=&gt;array('h'=&gt;60.000,'s'=&gt;1.000,'l'=&gt;0.939,),'hsv'=&gt;array('h'=&gt;60.000,'s'=&gt;0.122,'v'=&gt;1.000,),'cmy'=&gt;array('c'=&gt;0.000,'m'=&gt;0.000,'y'=&gt;0.122,),'cmyk'=&gt;array('c'=&gt;0.000,'m'=&gt;0.000,'y'=&gt;0.122,'k'=&gt;0.000,),),'lime'=&gt;array('hex'=&gt;'#00FF00','rgb'=&gt;array('r'=&gt;0,'g'=&gt;255,'b'=&gt;0,),'hsl'=&gt;array('h'=&gt;120.000,'s'=&gt;1.000,'l'=&gt;0.500,),'hsv'=&gt;array('h'=&gt;120.000,'s'=&gt;1.000,'v'=&gt;1.000,),'cmy'=&gt;array('c'=&gt;1.000,'m'=&gt;0.000,'y'=&gt;1.000,),'cmyk'=&gt;array('c'=&gt;1.000,'m'=&gt;0.000,'y'=&gt;1.000,'k'=&gt;0.000,),),'limegreen'=&gt;array('hex'=&gt;'#32CD32','rgb'=&gt;array('r'=&gt;50,'g'=&gt;205,'b'=&gt;50,),'hsl'=&gt;array('h'=&gt;120.000,'s'=&gt;0.608,'l'=&gt;0.500,),'hsv'=&gt;array('h'=&gt;120.000,'s'=&gt;0.756,'v'=&gt;0.804,),'cmy'=&gt;array('c'=&gt;0.804,'m'=&gt;0.196,'y'=&gt;0.804,),'cmyk'=&gt;array('c'=&gt;0.756,'m'=&gt;0.000,'y'=&gt;0.756,'k'=&gt;0.196,),),'linen'=&gt;array('hex'=&gt;'#FAF0E6','rgb'=&gt;array('r'=&gt;250,'g'=&gt;240,'b'=&gt;230,),'hsl'=&gt;array('h'=&gt;30.000,'s'=&gt;0.667,'l'=&gt;0.941,),'hsv'=&gt;array('h'=&gt;30.000,'s'=&gt;0.080,'v'=&gt;0.980,),'cmy'=&gt;array('c'=&gt;0.020,'m'=&gt;0.059,'y'=&gt;0.098,),'cmyk'=&gt;array('c'=&gt;0.000,'m'=&gt;0.040,'y'=&gt;0.080,'k'=&gt;0.020,),),'magenta'=&gt;array('hex'=&gt;'#FF00FF','rgb'=&gt;array('r'=&gt;255,'g'=&gt;0,'b'=&gt;255,),'hsl'=&gt;array('h'=&gt;300.000,'s'=&gt;1.000,'l'=&gt;0.500,),'hsv'=&gt;array('h'=&gt;300.000,'s'=&gt;1.000,'v'=&gt;1.000,),'cmy'=&gt;array('c'=&gt;0.000,'m'=&gt;1.000,'y'=&gt;0.000,),'cmyk'=&gt;array('c'=&gt;0.000,'m'=&gt;1.000,'y'=&gt;0.000,'k'=&gt;0.000,),),'maroon'=&gt;array('hex'=&gt;'#800000','rgb'=&gt;array('r'=&gt;128,'g'=&gt;0,'b'=&gt;0,),'hsl'=&gt;array('h'=&gt;0.000,'s'=&gt;1.000,'l'=&gt;0.251,),'hsv'=&gt;array('h'=&gt;0.000,'s'=&gt;1.000,'v'=&gt;0.502,),'cmy'=&gt;array('c'=&gt;0.498,'m'=&gt;1.000,'y'=&gt;1.000,),'cmyk'=&gt;array('c'=&gt;0.000,'m'=&gt;1.000,'y'=&gt;1.000,'k'=&gt;0.498,),),'mediumaquamarine'=&gt;array('hex'=&gt;'#66CDAA','rgb'=&gt;array('r'=&gt;102,'g'=&gt;205,'b'=&gt;170,),'hsl'=&gt;array('h'=&gt;159.612,'s'=&gt;0.507,'l'=&gt;0.602,),'hsv'=&gt;array('h'=&gt;159.612,'s'=&gt;0.502,'v'=&gt;0.804,),'cmy'=&gt;array('c'=&gt;0.600,'m'=&gt;0.196,'y'=&gt;0.333,),'cmyk'=&gt;array('c'=&gt;0.502,'m'=&gt;0.000,'y'=&gt;0.171,'k'=&gt;0.196,),),'mediumblue'=&gt;array('hex'=&gt;'#0000CD','rgb'=&gt;array('r'=&gt;0,'g'=&gt;0,'b'=&gt;205,),'hsl'=&gt;array('h'=&gt;240.000,'s'=&gt;1.000,'l'=&gt;0.402,),'hsv'=&gt;array('h'=&gt;240.000,'s'=&gt;1.000,'v'=&gt;0.804,),'cmy'=&gt;array('c'=&gt;1.000,'m'=&gt;1.000,'y'=&gt;0.196,),'cmyk'=&gt;array('c'=&gt;1.000,'m'=&gt;1.000,'y'=&gt;0.000,'k'=&gt;0.196,),),'mediumorchid'=&gt;array('hex'=&gt;'#BA55D3','rgb'=&gt;array('r'=&gt;186,'g'=&gt;85,'b'=&gt;211,),'hsl'=&gt;array('h'=&gt;288.095,'s'=&gt;0.589,'l'=&gt;0.580,),'hsv'=&gt;array('h'=&gt;288.095,'s'=&gt;0.597,'v'=&gt;0.827,),'cmy'=&gt;array('c'=&gt;0.271,'m'=&gt;0.667,'y'=&gt;0.173,),'cmyk'=&gt;array('c'=&gt;0.118,'m'=&gt;0.597,'y'=&gt;0.000,'k'=&gt;0.173,),),'mediumpurple'=&gt;array('hex'=&gt;'#9370DB','rgb'=&gt;array('r'=&gt;147,'g'=&gt;112,'b'=&gt;219,),'hsl'=&gt;array('h'=&gt;259.626,'s'=&gt;0.598,'l'=&gt;0.649,),'hsv'=&gt;array('h'=&gt;259.626,'s'=&gt;0.489,'v'=&gt;0.859,),'cmy'=&gt;array('c'=&gt;0.424,'m'=&gt;0.561,'y'=&gt;0.141,),'cmyk'=&gt;array('c'=&gt;0.329,'m'=&gt;0.489,'y'=&gt;0.000,'k'=&gt;0.141,),),'mediumseagreen'=&gt;array('hex'=&gt;'#3CB371','rgb'=&gt;array('r'=&gt;60,'g'=&gt;179,'b'=&gt;113,),'hsl'=&gt;array('h'=&gt;146.723,'s'=&gt;0.498,'l'=&gt;0.469,),'hsv'=&gt;array('h'=&gt;146.723,'s'=&gt;0.665,'v'=&gt;0.702,),'cmy'=&gt;array('c'=&gt;0.765,'m'=&gt;0.298,'y'=&gt;0.557,),'cmyk'=&gt;array('c'=&gt;0.665,'m'=&gt;0.000,'y'=&gt;0.369,'k'=&gt;0.298,),),'mediumslateblue'=&gt;array('hex'=&gt;'#7B68EE','rgb'=&gt;array('r'=&gt;123,'g'=&gt;104,'b'=&gt;238,),'hsl'=&gt;array('h'=&gt;248.507,'s'=&gt;0.798,'l'=&gt;0.671,),'hsv'=&gt;array('h'=&gt;248.507,'s'=&gt;0.563,'v'=&gt;0.933,),'cmy'=&gt;array('c'=&gt;0.518,'m'=&gt;0.592,'y'=&gt;0.067,),'cmyk'=&gt;array('c'=&gt;0.483,'m'=&gt;0.563,'y'=&gt;0.000,'k'=&gt;0.067,),),'mediumspringgreen'=&gt;array('hex'=&gt;'#00FA9A','rgb'=&gt;array('r'=&gt;0,'g'=&gt;250,'b'=&gt;154,),'hsl'=&gt;array('h'=&gt;156.960,'s'=&gt;1.000,'l'=&gt;0.490,),'hsv'=&gt;array('h'=&gt;156.960,'s'=&gt;1.000,'v'=&gt;0.980,),'cmy'=&gt;array('c'=&gt;1.000,'m'=&gt;0.020,'y'=&gt;0.396,),'cmyk'=&gt;array('c'=&gt;1.000,'m'=&gt;0.000,'y'=&gt;0.384,'k'=&gt;0.020,),),'mediumturquoise'=&gt;array('hex'=&gt;'#48D1CC','rgb'=&gt;array('r'=&gt;72,'g'=&gt;209,'b'=&gt;204,),'hsl'=&gt;array('h'=&gt;177.810,'s'=&gt;0.598,'l'=&gt;0.551,),'hsv'=&gt;array('h'=&gt;177.810,'s'=&gt;0.656,'v'=&gt;0.820,),'cmy'=&gt;array('c'=&gt;0.718,'m'=&gt;0.180,'y'=&gt;0.200,),'cmyk'=&gt;array('c'=&gt;0.656,'m'=&gt;0.000,'y'=&gt;0.024,'k'=&gt;0.180,),),'mediumvioletred'=&gt;array('hex'=&gt;'#C71585','rgb'=&gt;array('r'=&gt;199,'g'=&gt;21,'b'=&gt;133,),'hsl'=&gt;array('h'=&gt;322.247,'s'=&gt;0.809,'l'=&gt;0.431,),'hsv'=&gt;array('h'=&gt;322.247,'s'=&gt;0.894,'v'=&gt;0.780,),'cmy'=&gt;array('c'=&gt;0.220,'m'=&gt;0.918,'y'=&gt;0.478,),'cmyk'=&gt;array('c'=&gt;0.000,'m'=&gt;0.894,'y'=&gt;0.332,'k'=&gt;0.220,),),'midnightblue'=&gt;array('hex'=&gt;'#191970','rgb'=&gt;array('r'=&gt;25,'g'=&gt;25,'b'=&gt;112,),'hsl'=&gt;array('h'=&gt;240.000,'s'=&gt;0.635,'l'=&gt;0.269,),'hsv'=&gt;array('h'=&gt;240.000,'s'=&gt;0.777,'v'=&gt;0.439,),'cmy'=&gt;array('c'=&gt;0.902,'m'=&gt;0.902,'y'=&gt;0.561,),'cmyk'=&gt;array('c'=&gt;0.777,'m'=&gt;0.777,'y'=&gt;0.000,'k'=&gt;0.561,),),'mintcream'=&gt;array('hex'=&gt;'#F5FFFA','rgb'=&gt;array('r'=&gt;245,'g'=&gt;255,'b'=&gt;250,),'hsl'=&gt;array('h'=&gt;150.000,'s'=&gt;1.000,'l'=&gt;0.980,),'hsv'=&gt;array('h'=&gt;150.000,'s'=&gt;0.039,'v'=&gt;1.000,),'cmy'=&gt;array('c'=&gt;0.039,'m'=&gt;0.000,'y'=&gt;0.020,),'cmyk'=&gt;array('c'=&gt;0.039,'m'=&gt;0.000,'y'=&gt;0.020,'k'=&gt;0.000,),),'mistyrose'=&gt;array('hex'=&gt;'#FFE4E1','rgb'=&gt;array('r'=&gt;255,'g'=&gt;228,'b'=&gt;225,),'hsl'=&gt;array('h'=&gt;6.000,'s'=&gt;1.000,'l'=&gt;0.941,),'hsv'=&gt;array('h'=&gt;6.000,'s'=&gt;0.118,'v'=&gt;1.000,),'cmy'=&gt;array('c'=&gt;0.000,'m'=&gt;0.106,'y'=&gt;0.118,),'cmyk'=&gt;array('c'=&gt;0.000,'m'=&gt;0.106,'y'=&gt;0.118,'k'=&gt;0.000,),),'moccasin'=&gt;array('hex'=&gt;'#FFE4B5','rgb'=&gt;array('r'=&gt;255,'g'=&gt;228,'b'=&gt;181,),'hsl'=&gt;array('h'=&gt;38.108,'s'=&gt;1.000,'l'=&gt;0.855,),'hsv'=&gt;array('h'=&gt;38.108,'s'=&gt;0.290,'v'=&gt;1.000,),'cmy'=&gt;array('c'=&gt;0.000,'m'=&gt;0.106,'y'=&gt;0.290,),'cmyk'=&gt;array('c'=&gt;0.000,'m'=&gt;0.106,'y'=&gt;0.290,'k'=&gt;0.000,),),'navajowhite'=&gt;array('hex'=&gt;'#FFDEAD','rgb'=&gt;array('r'=&gt;255,'g'=&gt;222,'b'=&gt;173,),'hsl'=&gt;array('h'=&gt;35.854,'s'=&gt;1.000,'l'=&gt;0.839,),'hsv'=&gt;array('h'=&gt;35.854,'s'=&gt;0.322,'v'=&gt;1.000,),'cmy'=&gt;array('c'=&gt;0.000,'m'=&gt;0.129,'y'=&gt;0.322,),'cmyk'=&gt;array('c'=&gt;0.000,'m'=&gt;0.129,'y'=&gt;0.322,'k'=&gt;0.000,),),'navy'=&gt;array('hex'=&gt;'#000080','rgb'=&gt;array('r'=&gt;0,'g'=&gt;0,'b'=&gt;128,),'hsl'=&gt;array('h'=&gt;240.000,'s'=&gt;1.000,'l'=&gt;0.251,),'hsv'=&gt;array('h'=&gt;240.000,'s'=&gt;1.000,'v'=&gt;0.502,),'cmy'=&gt;array('c'=&gt;1.000,'m'=&gt;1.000,'y'=&gt;0.498,),'cmyk'=&gt;array('c'=&gt;1.000,'m'=&gt;1.000,'y'=&gt;0.000,'k'=&gt;0.498,),),'oldlace'=&gt;array('hex'=&gt;'#FDF5E6','rgb'=&gt;array('r'=&gt;253,'g'=&gt;245,'b'=&gt;230,),'hsl'=&gt;array('h'=&gt;39.130,'s'=&gt;0.852,'l'=&gt;0.947,),'hsv'=&gt;array('h'=&gt;39.130,'s'=&gt;0.091,'v'=&gt;0.992,),'cmy'=&gt;array('c'=&gt;0.008,'m'=&gt;0.039,'y'=&gt;0.098,),'cmyk'=&gt;array('c'=&gt;0.000,'m'=&gt;0.032,'y'=&gt;0.091,'k'=&gt;0.008,),),'olive'=&gt;array('hex'=&gt;'#808000','rgb'=&gt;array('r'=&gt;128,'g'=&gt;128,'b'=&gt;0,),'hsl'=&gt;array('h'=&gt;60.000,'s'=&gt;1.000,'l'=&gt;0.251,),'hsv'=&gt;array('h'=&gt;60.000,'s'=&gt;1.000,'v'=&gt;0.502,),'cmy'=&gt;array('c'=&gt;0.498,'m'=&gt;0.498,'y'=&gt;1.000,),'cmyk'=&gt;array('c'=&gt;0.000,'m'=&gt;0.000,'y'=&gt;1.000,'k'=&gt;0.498,),),'olivedrab'=&gt;array('hex'=&gt;'#6B8E23','rgb'=&gt;array('r'=&gt;107,'g'=&gt;142,'b'=&gt;35,),'hsl'=&gt;array('h'=&gt;79.626,'s'=&gt;0.605,'l'=&gt;0.347,),'hsv'=&gt;array('h'=&gt;79.626,'s'=&gt;0.754,'v'=&gt;0.557,),'cmy'=&gt;array('c'=&gt;0.580,'m'=&gt;0.443,'y'=&gt;0.863,),'cmyk'=&gt;array('c'=&gt;0.246,'m'=&gt;0.000,'y'=&gt;0.754,'k'=&gt;0.443,),),'orange'=&gt;array('hex'=&gt;'#FFA500','rgb'=&gt;array('r'=&gt;255,'g'=&gt;165,'b'=&gt;0,),'hsl'=&gt;array('h'=&gt;38.824,'s'=&gt;1.000,'l'=&gt;0.500,),'hsv'=&gt;array('h'=&gt;38.824,'s'=&gt;1.000,'v'=&gt;1.000,),'cmy'=&gt;array('c'=&gt;0.000,'m'=&gt;0.353,'y'=&gt;1.000,),'cmyk'=&gt;array('c'=&gt;0.000,'m'=&gt;0.353,'y'=&gt;1.000,'k'=&gt;0.000,),),'orangered'=&gt;array('hex'=&gt;'#FF4500','rgb'=&gt;array('r'=&gt;255,'g'=&gt;69,'b'=&gt;0,),'hsl'=&gt;array('h'=&gt;16.235,'s'=&gt;1.000,'l'=&gt;0.500,),'hsv'=&gt;array('h'=&gt;16.235,'s'=&gt;1.000,'v'=&gt;1.000,),'cmy'=&gt;array('c'=&gt;0.000,'m'=&gt;0.729,'y'=&gt;1.000,),'cmyk'=&gt;array('c'=&gt;0.000,'m'=&gt;0.729,'y'=&gt;1.000,'k'=&gt;0.000,),),'orchid'=&gt;array('hex'=&gt;'#DA70D6','rgb'=&gt;array('r'=&gt;218,'g'=&gt;112,'b'=&gt;214,),'hsl'=&gt;array('h'=&gt;302.264,'s'=&gt;0.589,'l'=&gt;0.647,),'hsv'=&gt;array('h'=&gt;302.264,'s'=&gt;0.486,'v'=&gt;0.855,),'cmy'=&gt;array('c'=&gt;0.145,'m'=&gt;0.561,'y'=&gt;0.161,),'cmyk'=&gt;array('c'=&gt;0.000,'m'=&gt;0.486,'y'=&gt;0.018,'k'=&gt;0.145,),),'palegoldenrod'=&gt;array('hex'=&gt;'#EEE8AA','rgb'=&gt;array('r'=&gt;238,'g'=&gt;232,'b'=&gt;170,),'hsl'=&gt;array('h'=&gt;54.706,'s'=&gt;0.667,'l'=&gt;0.800,),'hsv'=&gt;array('h'=&gt;54.706,'s'=&gt;0.286,'v'=&gt;0.933,),'cmy'=&gt;array('c'=&gt;0.067,'m'=&gt;0.090,'y'=&gt;0.333,),'cmyk'=&gt;array('c'=&gt;0.000,'m'=&gt;0.025,'y'=&gt;0.286,'k'=&gt;0.067,),),'palegreen'=&gt;array('hex'=&gt;'#98FB98','rgb'=&gt;array('r'=&gt;152,'g'=&gt;251,'b'=&gt;152,),'hsl'=&gt;array('h'=&gt;120.000,'s'=&gt;0.925,'l'=&gt;0.790,),'hsv'=&gt;array('h'=&gt;120.000,'s'=&gt;0.394,'v'=&gt;0.984,),'cmy'=&gt;array('c'=&gt;0.404,'m'=&gt;0.016,'y'=&gt;0.404,),'cmyk'=&gt;array('c'=&gt;0.394,'m'=&gt;0.000,'y'=&gt;0.394,'k'=&gt;0.016,),),'paleturquoise'=&gt;array('hex'=&gt;'#AFEEEE','rgb'=&gt;array('r'=&gt;175,'g'=&gt;238,'b'=&gt;238,),'hsl'=&gt;array('h'=&gt;180.000,'s'=&gt;0.649,'l'=&gt;0.810,),'hsv'=&gt;array('h'=&gt;180.000,'s'=&gt;0.265,'v'=&gt;0.933,),'cmy'=&gt;array('c'=&gt;0.314,'m'=&gt;0.067,'y'=&gt;0.067,),'cmyk'=&gt;array('c'=&gt;0.265,'m'=&gt;0.000,'y'=&gt;0.000,'k'=&gt;0.067,),),'palevioletred'=&gt;array('hex'=&gt;'#DB7093','rgb'=&gt;array('r'=&gt;219,'g'=&gt;112,'b'=&gt;147,),'hsl'=&gt;array('h'=&gt;340.374,'s'=&gt;0.598,'l'=&gt;0.649,),'hsv'=&gt;array('h'=&gt;340.374,'s'=&gt;0.489,'v'=&gt;0.859,),'cmy'=&gt;array('c'=&gt;0.141,'m'=&gt;0.561,'y'=&gt;0.424,),'cmyk'=&gt;array('c'=&gt;0.000,'m'=&gt;0.489,'y'=&gt;0.329,'k'=&gt;0.141,),),'papayawhip'=&gt;array('hex'=&gt;'#FFEFD5','rgb'=&gt;array('r'=&gt;255,'g'=&gt;239,'b'=&gt;213,),'hsl'=&gt;array('h'=&gt;37.143,'s'=&gt;1.000,'l'=&gt;0.918,),'hsv'=&gt;array('h'=&gt;37.143,'s'=&gt;0.165,'v'=&gt;1.000,),'cmy'=&gt;array('c'=&gt;0.000,'m'=&gt;0.063,'y'=&gt;0.165,),'cmyk'=&gt;array('c'=&gt;0.000,'m'=&gt;0.063,'y'=&gt;0.165,'k'=&gt;0.000,),),'peachpuff'=&gt;array('hex'=&gt;'#FFDAB9','rgb'=&gt;array('r'=&gt;255,'g'=&gt;218,'b'=&gt;185,),'hsl'=&gt;array('h'=&gt;28.286,'s'=&gt;1.000,'l'=&gt;0.863,),'hsv'=&gt;array('h'=&gt;28.286,'s'=&gt;0.275,'v'=&gt;1.000,),'cmy'=&gt;array('c'=&gt;0.000,'m'=&gt;0.145,'y'=&gt;0.275,),'cmyk'=&gt;array('c'=&gt;0.000,'m'=&gt;0.145,'y'=&gt;0.275,'k'=&gt;0.000,),),'peru'=&gt;array('hex'=&gt;'#CD853F','rgb'=&gt;array('r'=&gt;205,'g'=&gt;133,'b'=&gt;63,),'hsl'=&gt;array('h'=&gt;29.577,'s'=&gt;0.587,'l'=&gt;0.525,),'hsv'=&gt;array('h'=&gt;29.577,'s'=&gt;0.693,'v'=&gt;0.804,),'cmy'=&gt;array('c'=&gt;0.196,'m'=&gt;0.478,'y'=&gt;0.753,),'cmyk'=&gt;array('c'=&gt;0.000,'m'=&gt;0.351,'y'=&gt;0.693,'k'=&gt;0.196,),),'pink'=&gt;array('hex'=&gt;'#FFC0CB','rgb'=&gt;array('r'=&gt;255,'g'=&gt;192,'b'=&gt;203,),'hsl'=&gt;array('h'=&gt;349.524,'s'=&gt;1.000,'l'=&gt;0.876,),'hsv'=&gt;array('h'=&gt;349.524,'s'=&gt;0.247,'v'=&gt;1.000,),'cmy'=&gt;array('c'=&gt;0.000,'m'=&gt;0.247,'y'=&gt;0.204,),'cmyk'=&gt;array('c'=&gt;0.000,'m'=&gt;0.247,'y'=&gt;0.204,'k'=&gt;0.000,),),'plum'=&gt;array('hex'=&gt;'#DDA0DD','rgb'=&gt;array('r'=&gt;221,'g'=&gt;160,'b'=&gt;221,),'hsl'=&gt;array('h'=&gt;300.000,'s'=&gt;0.473,'l'=&gt;0.747,),'hsv'=&gt;array('h'=&gt;300.000,'s'=&gt;0.276,'v'=&gt;0.867,),'cmy'=&gt;array('c'=&gt;0.133,'m'=&gt;0.373,'y'=&gt;0.133,),'cmyk'=&gt;array('c'=&gt;0.000,'m'=&gt;0.276,'y'=&gt;0.000,'k'=&gt;0.133,),),'powderblue'=&gt;array('hex'=&gt;'#B0E0E6','rgb'=&gt;array('r'=&gt;176,'g'=&gt;224,'b'=&gt;230,),'hsl'=&gt;array('h'=&gt;186.667,'s'=&gt;0.519,'l'=&gt;0.796,),'hsv'=&gt;array('h'=&gt;186.667,'s'=&gt;0.235,'v'=&gt;0.902,),'cmy'=&gt;array('c'=&gt;0.310,'m'=&gt;0.122,'y'=&gt;0.098,),'cmyk'=&gt;array('c'=&gt;0.235,'m'=&gt;0.026,'y'=&gt;0.000,'k'=&gt;0.098,),),'purple'=&gt;array('hex'=&gt;'#800080','rgb'=&gt;array('r'=&gt;128,'g'=&gt;0,'b'=&gt;128,),'hsl'=&gt;array('h'=&gt;300.000,'s'=&gt;1.000,'l'=&gt;0.251,),'hsv'=&gt;array('h'=&gt;300.000,'s'=&gt;1.000,'v'=&gt;0.502,),'cmy'=&gt;array('c'=&gt;0.498,'m'=&gt;1.000,'y'=&gt;0.498,),'cmyk'=&gt;array('c'=&gt;0.000,'m'=&gt;1.000,'y'=&gt;0.000,'k'=&gt;0.498,),),'red'=&gt;array('hex'=&gt;'#FF0000','rgb'=&gt;array('r'=&gt;255,'g'=&gt;0,'b'=&gt;0,),'hsl'=&gt;array('h'=&gt;0.000,'s'=&gt;1.000,'l'=&gt;0.500,),'hsv'=&gt;array('h'=&gt;0.000,'s'=&gt;1.000,'v'=&gt;1.000,),'cmy'=&gt;array('c'=&gt;0.000,'m'=&gt;1.000,'y'=&gt;1.000,),'cmyk'=&gt;array('c'=&gt;0.000,'m'=&gt;1.000,'y'=&gt;1.000,'k'=&gt;0.000,),),'rosybrown'=&gt;array('hex'=&gt;'#BC8F8F','rgb'=&gt;array('r'=&gt;188,'g'=&gt;143,'b'=&gt;143,),'hsl'=&gt;array('h'=&gt;0.000,'s'=&gt;0.251,'l'=&gt;0.649,),'hsv'=&gt;array('h'=&gt;0.000,'s'=&gt;0.239,'v'=&gt;0.737,),'cmy'=&gt;array('c'=&gt;0.263,'m'=&gt;0.439,'y'=&gt;0.439,),'cmyk'=&gt;array('c'=&gt;0.000,'m'=&gt;0.239,'y'=&gt;0.239,'k'=&gt;0.263,),),'royalblue'=&gt;array('hex'=&gt;'#4169E1','rgb'=&gt;array('r'=&gt;65,'g'=&gt;105,'b'=&gt;225,),'hsl'=&gt;array('h'=&gt;225.000,'s'=&gt;0.727,'l'=&gt;0.569,),'hsv'=&gt;array('h'=&gt;225.000,'s'=&gt;0.711,'v'=&gt;0.882,),'cmy'=&gt;array('c'=&gt;0.745,'m'=&gt;0.588,'y'=&gt;0.118,),'cmyk'=&gt;array('c'=&gt;0.711,'m'=&gt;0.533,'y'=&gt;0.000,'k'=&gt;0.118,),),'saddlebrown'=&gt;array('hex'=&gt;'#8B4513','rgb'=&gt;array('r'=&gt;139,'g'=&gt;69,'b'=&gt;19,),'hsl'=&gt;array('h'=&gt;25.000,'s'=&gt;0.759,'l'=&gt;0.310,),'hsv'=&gt;array('h'=&gt;25.000,'s'=&gt;0.863,'v'=&gt;0.545,),'cmy'=&gt;array('c'=&gt;0.455,'m'=&gt;0.729,'y'=&gt;0.925,),'cmyk'=&gt;array('c'=&gt;0.000,'m'=&gt;0.504,'y'=&gt;0.863,'k'=&gt;0.455,),),'salmon'=&gt;array('hex'=&gt;'#FA8072','rgb'=&gt;array('r'=&gt;250,'g'=&gt;128,'b'=&gt;114,),'hsl'=&gt;array('h'=&gt;6.176,'s'=&gt;0.932,'l'=&gt;0.714,),'hsv'=&gt;array('h'=&gt;6.176,'s'=&gt;0.544,'v'=&gt;0.980,),'cmy'=&gt;array('c'=&gt;0.020,'m'=&gt;0.498,'y'=&gt;0.553,),'cmyk'=&gt;array('c'=&gt;0.000,'m'=&gt;0.488,'y'=&gt;0.544,'k'=&gt;0.020,),),'sandybrown'=&gt;array('hex'=&gt;'#F4A460','rgb'=&gt;array('r'=&gt;244,'g'=&gt;164,'b'=&gt;96,),'hsl'=&gt;array('h'=&gt;27.568,'s'=&gt;0.871,'l'=&gt;0.667,),'hsv'=&gt;array('h'=&gt;27.568,'s'=&gt;0.607,'v'=&gt;0.957,),'cmy'=&gt;array('c'=&gt;0.043,'m'=&gt;0.357,'y'=&gt;0.624,),'cmyk'=&gt;array('c'=&gt;0.000,'m'=&gt;0.328,'y'=&gt;0.607,'k'=&gt;0.043,),),'seagreen'=&gt;array('hex'=&gt;'#2E8B57','rgb'=&gt;array('r'=&gt;46,'g'=&gt;139,'b'=&gt;87,),'hsl'=&gt;array('h'=&gt;146.452,'s'=&gt;0.503,'l'=&gt;0.363,),'hsv'=&gt;array('h'=&gt;146.452,'s'=&gt;0.669,'v'=&gt;0.545,),'cmy'=&gt;array('c'=&gt;0.820,'m'=&gt;0.455,'y'=&gt;0.659,),'cmyk'=&gt;array('c'=&gt;0.669,'m'=&gt;0.000,'y'=&gt;0.374,'k'=&gt;0.455,),),'seashell'=&gt;array('hex'=&gt;'#FFF5EE','rgb'=&gt;array('r'=&gt;255,'g'=&gt;245,'b'=&gt;238,),'hsl'=&gt;array('h'=&gt;24.706,'s'=&gt;1.000,'l'=&gt;0.967,),'hsv'=&gt;array('h'=&gt;24.706,'s'=&gt;0.067,'v'=&gt;1.000,),'cmy'=&gt;array('c'=&gt;0.000,'m'=&gt;0.039,'y'=&gt;0.067,),'cmyk'=&gt;array('c'=&gt;0.000,'m'=&gt;0.039,'y'=&gt;0.067,'k'=&gt;0.000,),),'sienna'=&gt;array('hex'=&gt;'#A0522D','rgb'=&gt;array('r'=&gt;160,'g'=&gt;82,'b'=&gt;45,),'hsl'=&gt;array('h'=&gt;19.304,'s'=&gt;0.561,'l'=&gt;0.402,),'hsv'=&gt;array('h'=&gt;19.304,'s'=&gt;0.719,'v'=&gt;0.627,),'cmy'=&gt;array('c'=&gt;0.373,'m'=&gt;0.678,'y'=&gt;0.824,),'cmyk'=&gt;array('c'=&gt;0.000,'m'=&gt;0.488,'y'=&gt;0.719,'k'=&gt;0.373,),),'silver'=&gt;array('hex'=&gt;'#C0C0C0','rgb'=&gt;array('r'=&gt;192,'g'=&gt;192,'b'=&gt;192,),'hsl'=&gt;array('h'=&gt;0.000,'s'=&gt;0.000,'l'=&gt;0.753,),'hsv'=&gt;array('h'=&gt;0.000,'s'=&gt;0.000,'v'=&gt;0.753,),'cmy'=&gt;array('c'=&gt;0.247,'m'=&gt;0.247,'y'=&gt;0.247,),'cmyk'=&gt;array('c'=&gt;0.000,'m'=&gt;0.000,'y'=&gt;0.000,'k'=&gt;0.247,),),'skyblue'=&gt;array('hex'=&gt;'#87CEEB','rgb'=&gt;array('r'=&gt;135,'g'=&gt;206,'b'=&gt;235,),'hsl'=&gt;array('h'=&gt;197.400,'s'=&gt;0.714,'l'=&gt;0.725,),'hsv'=&gt;array('h'=&gt;197.400,'s'=&gt;0.426,'v'=&gt;0.922,),'cmy'=&gt;array('c'=&gt;0.471,'m'=&gt;0.192,'y'=&gt;0.078,),'cmyk'=&gt;array('c'=&gt;0.426,'m'=&gt;0.123,'y'=&gt;0.000,'k'=&gt;0.078,),),'slateblue'=&gt;array('hex'=&gt;'#6A5ACD','rgb'=&gt;array('r'=&gt;106,'g'=&gt;90,'b'=&gt;205,),'hsl'=&gt;array('h'=&gt;248.348,'s'=&gt;0.535,'l'=&gt;0.578,),'hsv'=&gt;array('h'=&gt;248.348,'s'=&gt;0.561,'v'=&gt;0.804,),'cmy'=&gt;array('c'=&gt;0.584,'m'=&gt;0.647,'y'=&gt;0.196,),'cmyk'=&gt;array('c'=&gt;0.483,'m'=&gt;0.561,'y'=&gt;0.000,'k'=&gt;0.196,),),'slategray'=&gt;array('hex'=&gt;'#708090','rgb'=&gt;array('r'=&gt;112,'g'=&gt;128,'b'=&gt;144,),'hsl'=&gt;array('h'=&gt;210.000,'s'=&gt;0.126,'l'=&gt;0.502,),'hsv'=&gt;array('h'=&gt;210.000,'s'=&gt;0.222,'v'=&gt;0.565,),'cmy'=&gt;array('c'=&gt;0.561,'m'=&gt;0.498,'y'=&gt;0.435,),'cmyk'=&gt;array('c'=&gt;0.222,'m'=&gt;0.111,'y'=&gt;0.000,'k'=&gt;0.435,),),'slategrey'=&gt;array('hex'=&gt;'#708090','rgb'=&gt;array('r'=&gt;112,'g'=&gt;128,'b'=&gt;144,),'hsl'=&gt;array('h'=&gt;210.000,'s'=&gt;0.126,'l'=&gt;0.502,),'hsv'=&gt;array('h'=&gt;210.000,'s'=&gt;0.222,'v'=&gt;0.565,),'cmy'=&gt;array('c'=&gt;0.561,'m'=&gt;0.498,'y'=&gt;0.435,),'cmyk'=&gt;array('c'=&gt;0.222,'m'=&gt;0.111,'y'=&gt;0.000,'k'=&gt;0.435,),),'snow'=&gt;array('hex'=&gt;'#FFFAFA','rgb'=&gt;array('r'=&gt;255,'g'=&gt;250,'b'=&gt;250,),'hsl'=&gt;array('h'=&gt;0.000,'s'=&gt;1.000,'l'=&gt;0.990,),'hsv'=&gt;array('h'=&gt;0.000,'s'=&gt;0.020,'v'=&gt;1.000,),'cmy'=&gt;array('c'=&gt;0.000,'m'=&gt;0.020,'y'=&gt;0.020,),'cmyk'=&gt;array('c'=&gt;0.000,'m'=&gt;0.020,'y'=&gt;0.020,'k'=&gt;0.000,),),'springgreen'=&gt;array('hex'=&gt;'#00FF7F','rgb'=&gt;array('r'=&gt;0,'g'=&gt;255,'b'=&gt;127,),'hsl'=&gt;array('h'=&gt;149.882,'s'=&gt;1.000,'l'=&gt;0.500,),'hsv'=&gt;array('h'=&gt;149.882,'s'=&gt;1.000,'v'=&gt;1.000,),'cmy'=&gt;array('c'=&gt;1.000,'m'=&gt;0.000,'y'=&gt;0.502,),'cmyk'=&gt;array('c'=&gt;1.000,'m'=&gt;0.000,'y'=&gt;0.502,'k'=&gt;0.000,),),'steelblue'=&gt;array('hex'=&gt;'#4682B4','rgb'=&gt;array('r'=&gt;70,'g'=&gt;130,'b'=&gt;180,),'hsl'=&gt;array('h'=&gt;207.273,'s'=&gt;0.440,'l'=&gt;0.490,),'hsv'=&gt;array('h'=&gt;207.273,'s'=&gt;0.611,'v'=&gt;0.706,),'cmy'=&gt;array('c'=&gt;0.725,'m'=&gt;0.490,'y'=&gt;0.294,),'cmyk'=&gt;array('c'=&gt;0.611,'m'=&gt;0.278,'y'=&gt;0.000,'k'=&gt;0.294,),),'tan'=&gt;array('hex'=&gt;'#D2B48C','rgb'=&gt;array('r'=&gt;210,'g'=&gt;180,'b'=&gt;140,),'hsl'=&gt;array('h'=&gt;34.286,'s'=&gt;0.438,'l'=&gt;0.686,),'hsv'=&gt;array('h'=&gt;34.286,'s'=&gt;0.333,'v'=&gt;0.824,),'cmy'=&gt;array('c'=&gt;0.176,'m'=&gt;0.294,'y'=&gt;0.451,),'cmyk'=&gt;array('c'=&gt;0.000,'m'=&gt;0.143,'y'=&gt;0.333,'k'=&gt;0.176,),),'teal'=&gt;array('hex'=&gt;'#008080','rgb'=&gt;array('r'=&gt;0,'g'=&gt;128,'b'=&gt;128,),'hsl'=&gt;array('h'=&gt;180.000,'s'=&gt;1.000,'l'=&gt;0.251,),'hsv'=&gt;array('h'=&gt;180.000,'s'=&gt;1.000,'v'=&gt;0.502,),'cmy'=&gt;array('c'=&gt;1.000,'m'=&gt;0.498,'y'=&gt;0.498,),'cmyk'=&gt;array('c'=&gt;1.000,'m'=&gt;0.000,'y'=&gt;0.000,'k'=&gt;0.498,),),'thistle'=&gt;array('hex'=&gt;'#D8BFD8','rgb'=&gt;array('r'=&gt;216,'g'=&gt;191,'b'=&gt;216,),'hsl'=&gt;array('h'=&gt;300.000,'s'=&gt;0.243,'l'=&gt;0.798,),'hsv'=&gt;array('h'=&gt;300.000,'s'=&gt;0.116,'v'=&gt;0.847,),'cmy'=&gt;array('c'=&gt;0.153,'m'=&gt;0.251,'y'=&gt;0.153,),'cmyk'=&gt;array('c'=&gt;0.000,'m'=&gt;0.116,'y'=&gt;0.000,'k'=&gt;0.153,),),'tomato'=&gt;array('hex'=&gt;'#FF6347','rgb'=&gt;array('r'=&gt;255,'g'=&gt;99,'b'=&gt;71,),'hsl'=&gt;array('h'=&gt;9.130,'s'=&gt;1.000,'l'=&gt;0.639,),'hsv'=&gt;array('h'=&gt;9.130,'s'=&gt;0.722,'v'=&gt;1.000,),'cmy'=&gt;array('c'=&gt;0.000,'m'=&gt;0.612,'y'=&gt;0.722,),'cmyk'=&gt;array('c'=&gt;0.000,'m'=&gt;0.612,'y'=&gt;0.722,'k'=&gt;0.000,),),'turquoise'=&gt;array('hex'=&gt;'#40E0D0','rgb'=&gt;array('r'=&gt;64,'g'=&gt;224,'b'=&gt;208,),'hsl'=&gt;array('h'=&gt;174.000,'s'=&gt;0.721,'l'=&gt;0.565,),'hsv'=&gt;array('h'=&gt;174.000,'s'=&gt;0.714,'v'=&gt;0.878,),'cmy'=&gt;array('c'=&gt;0.749,'m'=&gt;0.122,'y'=&gt;0.184,),'cmyk'=&gt;array('c'=&gt;0.714,'m'=&gt;0.000,'y'=&gt;0.071,'k'=&gt;0.122,),),'violet'=&gt;array('hex'=&gt;'#EE82EE','rgb'=&gt;array('r'=&gt;238,'g'=&gt;130,'b'=&gt;238,),'hsl'=&gt;array('h'=&gt;300.000,'s'=&gt;0.761,'l'=&gt;0.722,),'hsv'=&gt;array('h'=&gt;300.000,'s'=&gt;0.454,'v'=&gt;0.933,),'cmy'=&gt;array('c'=&gt;0.067,'m'=&gt;0.490,'y'=&gt;0.067,),'cmyk'=&gt;array('c'=&gt;0.000,'m'=&gt;0.454,'y'=&gt;0.000,'k'=&gt;0.067,),),'wheat'=&gt;array('hex'=&gt;'#F5DEB3','rgb'=&gt;array('r'=&gt;245,'g'=&gt;222,'b'=&gt;179,),'hsl'=&gt;array('h'=&gt;39.091,'s'=&gt;0.767,'l'=&gt;0.831,),'hsv'=&gt;array('h'=&gt;39.091,'s'=&gt;0.269,'v'=&gt;0.961,),'cmy'=&gt;array('c'=&gt;0.039,'m'=&gt;0.129,'y'=&gt;0.298,),'cmyk'=&gt;array('c'=&gt;0.000,'m'=&gt;0.094,'y'=&gt;0.269,'k'=&gt;0.039,),),'white'=&gt;array('hex'=&gt;'#FFFFFF','rgb'=&gt;array('r'=&gt;255,'g'=&gt;255,'b'=&gt;255,),'hsl'=&gt;array('h'=&gt;0.000,'s'=&gt;0.000,'l'=&gt;1.000,),'hsv'=&gt;array('h'=&gt;0.000,'s'=&gt;0.000,'v'=&gt;1.000,),'cmy'=&gt;array('c'=&gt;0.000,'m'=&gt;0.000,'y'=&gt;0.000,),'cmyk'=&gt;array('c'=&gt;0.000,'m'=&gt;0.000,'y'=&gt;0.000,'k'=&gt;0.000,),),'whitesmoke'=&gt;array('hex'=&gt;'#F5F5F5','rgb'=&gt;array('r'=&gt;245,'g'=&gt;245,'b'=&gt;245,),'hsl'=&gt;array('h'=&gt;0.000,'s'=&gt;0.000,'l'=&gt;0.961,),'hsv'=&gt;array('h'=&gt;0.000,'s'=&gt;0.000,'v'=&gt;0.961,),'cmy'=&gt;array('c'=&gt;0.039,'m'=&gt;0.039,'y'=&gt;0.039,),'cmyk'=&gt;array('c'=&gt;0.000,'m'=&gt;0.000,'y'=&gt;0.000,'k'=&gt;0.039,),),'yellow'=&gt;array('hex'=&gt;'#FFFF00','rgb'=&gt;array('r'=&gt;255,'g'=&gt;255,'b'=&gt;0,),'hsl'=&gt;array('h'=&gt;60.000,'s'=&gt;1.000,'l'=&gt;0.500,),'hsv'=&gt;array('h'=&gt;60.000,'s'=&gt;1.000,'v'=&gt;1.000,),'cmy'=&gt;array('c'=&gt;0.000,'m'=&gt;0.000,'y'=&gt;1.000,),'cmyk'=&gt;array('c'=&gt;0.000,'m'=&gt;0.000,'y'=&gt;1.000,'k'=&gt;0.000,),),'yellowgreen'=&gt;array('hex'=&gt;'#9ACD32','rgb'=&gt;array('r'=&gt;154,'g'=&gt;205,'b'=&gt;50,),'hsl'=&gt;array('h'=&gt;79.742,'s'=&gt;0.608,'l'=&gt;0.500,),'hsv'=&gt;array('h'=&gt;79.742,'s'=&gt;0.756,'v'=&gt;0.804,),'cmy'=&gt;array('c'=&gt;0.396,'m'=&gt;0.196,'y'=&gt;0.804,),'cmyk'=&gt;array('c'=&gt;0.249,'m'=&gt;0.000,'y'=&gt;0.756,'k'=&gt;0.196,),),)</span>			(line <span class="line-number"><a href="__filesource/fsource_HSLColor__HSLColor.class.php.html#a75" rel="contents">75</a></span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Array with color data.</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> private</li>
+			</ul>
+	
+	
+		
+		
+
+</div>
+
+<a name="$_hue" id="$_hue"><!-- --></A>
+<div class="oddrow">
+
+	<div class="var-header">
+		<img src="images/PrivateVariable.png" />
+		<span class="var-title">
+			<span class="var-type">float</span>
+			<span class="var-name">$_hue</span>
+			 = <span class="var-default"> 0.0</span>			(line <span class="line-number"><a href="__filesource/fsource_HSLColor__HSLColor.class.php.html#a46" rel="contents">46</a></span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">The Hue is the color's position on the color wheel, expressed in degrees from 0° to 359°,  representing the 360° of the wheel; 0° being red, 180° being red's opposite color cyan, and so on.</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> private</li>
+			</ul>
+	
+	
+		
+		
+
+</div>
+<a name="$_lightness" id="$_lightness"><!-- --></A>
+<div class="evenrow">
+
+	<div class="var-header">
+		<img src="images/PrivateVariable.png" />
+		<span class="var-title">
+			<span class="var-type">float</span>
+			<span class="var-name">$_lightness</span>
+			 = <span class="var-default"> 1.0</span>			(line <span class="line-number"><a href="__filesource/fsource_HSLColor__HSLColor.class.php.html#a67" rel="contents">67</a></span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Lightness is how light the color is. Slightly different to saturation. The more white in the  color the higher its Lightness value, the more black, the lower its Lightness. So 100%  Lightness turns the color white, 0% Lightness turns the color black, and the &quot;pure&quot; color  would be 50% Lightness.</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> private</li>
+			</ul>
+	
+	
+		
+		
+
+</div>
+<a name="$_saturation" id="$_saturation"><!-- --></A>
+<div class="oddrow">
+
+	<div class="var-header">
+		<img src="images/PrivateVariable.png" />
+		<span class="var-title">
+			<span class="var-type">float</span>
+			<span class="var-name">$_saturation</span>
+			 = <span class="var-default"> 0.0</span>			(line <span class="line-number"><a href="__filesource/fsource_HSLColor__HSLColor.class.php.html#a56" rel="contents">56</a></span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Saturation is the intensity of the color, how dull or bright it is. The lower the saturation,  the duller (greyer) the color looks. This is expressed as a percentage, 100% being full  saturation, the brightest, and 0% being no saturation, grey.</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> private</li>
+			</ul>
+	
+	
+		
+		
+
+</div>
+                			
+            </div>
+        </div>
+            
+            <a name="sec-methods"></a>
+        <div class="info-box">
+            <div class="info-box-title">Methods</div>
+            <div class="nav-bar">
+                <a href="#sec-description">Description</a> |
+                                                                            <a href="#sec-var-summary">Vars</a> (<a href="#sec-vars">details</a>)
+                                                                        <a href="#sec-method-summary">Methods</a> (<span class="disabled">details</span>)
+                			
+            </div>
+            <div class="info-box-body">
+                <A NAME='method_detail'></A>
+<a name="convertHSLToRGB" id="convertHSLToRGB"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<img src="images/StaticMethod.png" />
+		<span class="method-title">static convertHSLToRGB</span> (line <span class="line-number"><a href="__filesource/fsource_HSLColor__HSLColor.class.php.html#a1743" rel="contents">1743</a></span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Converts HSL value to RGB value</p>
+<p class="description"><p>Function adapted from 'Computer Graphics: Principles and Practice',  by Foley, van Dam, Feiner and Hughes.  Chapter 13; Achromatic and  Colored Light.  (siehe http://www.php.de/php-tipps-2005-2/32895-farbnuancen-aus-farbton-berechnen.html)</p></p>
+	<ul class="tags">
+				<li><span class="field">return:</span> Array using template array( 'r' =&gt; ?, 'g' =&gt; ?, 'b' =&gt; ? );</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">array</span>
+		<span class="method-name">
+			convertHSLToRGB
+		</span>
+					(<span class="var-type">float</span>&nbsp;<span class="var-name">$hue</span>, <span class="var-type">float</span>&nbsp;<span class="var-name">$saturation</span>, <span class="var-type">float</span>&nbsp;<span class="var-name">$lightness</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">float</span>
+				<span class="var-name">$hue</span><span class="var-description">: The hue must between 0 and 360</span>			</li>
+					<li>
+				<span class="var-type">float</span>
+				<span class="var-name">$saturation</span><span class="var-description">: The saturation must between 0.0 and 1.0</span>			</li>
+					<li>
+				<span class="var-type">float</span>
+				<span class="var-name">$lightness</span><span class="var-description">: The lightness must between 0.0 and 1.0</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="convertHSLToRGBString" id="convertHSLToRGBString"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<img src="images/StaticMethod.png" />
+		<span class="method-title">static convertHSLToRGBString</span> (line <span class="line-number"><a href="__filesource/fsource_HSLColor__HSLColor.class.php.html#a1785" rel="contents">1785</a></span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Converts HSL value to HTML color string</p>
+	<ul class="tags">
+				<li><span class="field">return:</span> HTML color in the format #xxxxxx</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">string</span>
+		<span class="method-name">
+			convertHSLToRGBString
+		</span>
+					(<span class="var-type">float</span>&nbsp;<span class="var-name">$hue</span>, <span class="var-type">float</span>&nbsp;<span class="var-name">$saturation</span>, <span class="var-type">float</span>&nbsp;<span class="var-name">$lightness</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">float</span>
+				<span class="var-name">$hue</span><span class="var-description">: The hue must between 0 and 360</span>			</li>
+					<li>
+				<span class="var-type">float</span>
+				<span class="var-name">$saturation</span><span class="var-description">: The saturation must between 0.0 and 1.0</span>			</li>
+					<li>
+				<span class="var-type">float</span>
+				<span class="var-name">$lightness</span><span class="var-description">: The lightness must between 0.0 and 1.0</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="convertRGBToHSL" id="convertRGBToHSL"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<img src="images/StaticMethod.png" />
+		<span class="method-title">static convertRGBToHSL</span> (line <span class="line-number"><a href="__filesource/fsource_HSLColor__HSLColor.class.php.html#a1680" rel="contents">1680</a></span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Converts RGB value to HSL value</p>
+<p class="description"><p>Function adapted from 'Computer Graphics: Principles and Practice',  by Foley, van Dam, Feiner and Hughes.  Chapter 13; Achromatic and  Colored Light.  (siehe http://www.php.de/php-tipps-2005-2/32895-farbnuancen-aus-farbton-berechnen.html)</p></p>
+	<ul class="tags">
+				<li><span class="field">return:</span> Array using template array( 'h' =&gt; ?, 's' =&gt; ?, 'l' =&gt; ? );</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">array</span>
+		<span class="method-name">
+			convertRGBToHSL
+		</span>
+					(<span class="var-type">integer</span>&nbsp;<span class="var-name">$red</span>, <span class="var-type">integer</span>&nbsp;<span class="var-name">$green</span>, <span class="var-type">integer</span>&nbsp;<span class="var-name">$blue</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">integer</span>
+				<span class="var-name">$red</span><span class="var-description">: The red color must between 0 and 255</span>			</li>
+					<li>
+				<span class="var-type">integer</span>
+				<span class="var-name">$green</span><span class="var-description">: The green color must between 0 and 255</span>			</li>
+					<li>
+				<span class="var-type">integer</span>
+				<span class="var-name">$blue</span><span class="var-description">: The blue color must between 0 and 255</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="Hue_2_RGB" id="Hue_2_RGB"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<img src="images/StaticMethod.png" />
+		<span class="method-title">static Hue_2_RGB</span> (line <span class="line-number"><a href="__filesource/fsource_HSLColor__HSLColor.class.php.html#a1800" rel="contents">1800</a></span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Helperfunction for convertHSLToRGB()</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> private</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">float</span>
+		<span class="method-name">
+			Hue_2_RGB
+		</span>
+					(<span class="var-type">float</span>&nbsp;<span class="var-name">$v1</span>, <span class="var-type">float</span>&nbsp;<span class="var-name">$v2</span>, <span class="var-type">float</span>&nbsp;<span class="var-name">$vH</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">float</span>
+				<span class="var-name">$v1</span>			</li>
+					<li>
+				<span class="var-type">float</span>
+				<span class="var-name">$v2</span>			</li>
+					<li>
+				<span class="var-type">float</span>
+				<span class="var-name">$vH</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="__construct" id="__construct"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<img src="images/Constructor.png" />
+		<span class="method-title">Constructor __construct</span> (line <span class="line-number"><a href="__filesource/fsource_HSLColor__HSLColor.class.php.html#a1263" rel="contents">1263</a></span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Constructor - initializes the color to 0° 0% 100% (#FFFFFF, white)</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			__construct
+		</span>
+					([<span class="var-type">float</span>&nbsp;<span class="var-name">$hue</span> = <span class="var-default">0.0</span>], [<span class="var-type">float</span>&nbsp;<span class="var-name">$saturation</span> = <span class="var-default">0.0</span>], [<span class="var-type">float</span>&nbsp;<span class="var-name">$lightness</span> = <span class="var-default">1.0</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">float</span>
+				<span class="var-name">$hue</span><span class="var-description">: Default 0.0</span>			</li>
+					<li>
+				<span class="var-type">float</span>
+				<span class="var-name">$saturation</span><span class="var-description">: 0.0</span>			</li>
+					<li>
+				<span class="var-type">float</span>
+				<span class="var-name">$lightness</span><span class="var-description">: 1.0</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="changeHue" id="changeHue"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<img src="images/Method.png" />
+		<span class="method-title">changeHue</span> (line <span class="line-number"><a href="__filesource/fsource_HSLColor__HSLColor.class.php.html#a1556" rel="contents">1556</a></span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Alters the hue of the current color</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			changeHue
+		</span>
+					(<span class="var-type">float</span>&nbsp;<span class="var-name">$degrees</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">float</span>
+				<span class="var-name">$degrees</span><span class="var-description">: is the amount of change from the current hue</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="changeLightness" id="changeLightness"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<img src="images/Method.png" />
+		<span class="method-title">changeLightness</span> (line <span class="line-number"><a href="__filesource/fsource_HSLColor__HSLColor.class.php.html#a1595" rel="contents">1595</a></span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Alters the lightness of the current color</p>
+<p class="description"><p>The value passed in should be greater than -1 and less than 1. If by changing the lightness the value  becomes greater than 1 or less than 0,  the lightness will be limited to the range of 0.0 to 1.0</p></p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			changeLightness
+		</span>
+					(<span class="var-type">float</span>&nbsp;<span class="var-name">$amount</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">float</span>
+				<span class="var-name">$amount</span><span class="var-description">: is the total amount of lightness to be added to the current color, between -1 and 1</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="changeSaturation" id="changeSaturation"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<img src="images/Method.png" />
+		<span class="method-title">changeSaturation</span> (line <span class="line-number"><a href="__filesource/fsource_HSLColor__HSLColor.class.php.html#a1578" rel="contents">1578</a></span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Alters the saturation of the current color</p>
+<p class="description"><p>The value passed in should be greater than -1 and less than 1. If by changing the saturation the value  becomes greater than 1 or less than 0,  the saturation will be limited to the range of 0.0 to 1.0</p></p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			changeSaturation
+		</span>
+					(<span class="var-type">float</span>&nbsp;<span class="var-name">$amount</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">float</span>
+				<span class="var-name">$amount</span><span class="var-description">: is the total amount of saturation to be added to the current color, between -1 and 1</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="getAnalogous" id="getAnalogous"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<img src="images/Method.png" />
+		<span class="method-title">getAnalogous</span> (line <span class="line-number"><a href="__filesource/fsource_HSLColor__HSLColor.class.php.html#a1643" rel="contents">1643</a></span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Analogous H° +/- 30°  Uses the colors of the same color temperature near each other on the wheel.</p>
+	<ul class="tags">
+				<li><span class="field">return:</span> Array with 2 HSLColor objects</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">array</span>
+		<span class="method-name">
+			getAnalogous
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="getCMY" id="getCMY"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<img src="images/Method.png" />
+		<span class="method-title">getCMY</span> (line <span class="line-number"><a href="__filesource/fsource_HSLColor__HSLColor.class.php.html#a1474" rel="contents">1474</a></span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Returns CMY array of the current color</p>
+	<ul class="tags">
+				<li><span class="field">return:</span> using template array( 'c' =&gt; ?, 'm' =&gt; ?, 'y' =&gt; ? );</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">array</span>
+		<span class="method-name">
+			getCMY
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="getCMYK" id="getCMYK"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<img src="images/Method.png" />
+		<span class="method-title">getCMYK</span> (line <span class="line-number"><a href="__filesource/fsource_HSLColor__HSLColor.class.php.html#a1491" rel="contents">1491</a></span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Returns CMYK array of the current color</p>
+	<ul class="tags">
+				<li><span class="field">return:</span> using template array( 'c' =&gt; ?, 'm' =&gt; ?, 'y' =&gt; ?, 'k' =&gt; ? );</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">array</span>
+		<span class="method-name">
+			getCMYK
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="getComplement" id="getComplement"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<img src="images/Method.png" />
+		<span class="method-title">getComplement</span> (line <span class="line-number"><a href="__filesource/fsource_HSLColor__HSLColor.class.php.html#a1660" rel="contents">1660</a></span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Complement H° + 180°  This is the color opposite on the color wheel.</p>
+	<ul class="tags">
+				<li><span class="field">return:</span> HSLColor object</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result"><a rel="contents" href="HSLColor/HSLColor.html">HSLColor</a></span>
+		<span class="method-name">
+			getComplement
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="getHSL" id="getHSL"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<img src="images/Method.png" />
+		<span class="method-title">getHSL</span> (line <span class="line-number"><a href="__filesource/fsource_HSLColor__HSLColor.class.php.html#a1437" rel="contents">1437</a></span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Returns an array containing the hue, saturation and lightness</p>
+	<ul class="tags">
+				<li><span class="field">return:</span> using template array( 'h' =&gt; ?, 's' =&gt; ?, 'l' =&gt; ? );</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">array</span>
+		<span class="method-name">
+			getHSL
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="getHSV" id="getHSV"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<img src="images/Method.png" />
+		<span class="method-title">getHSV</span> (line <span class="line-number"><a href="__filesource/fsource_HSLColor__HSLColor.class.php.html#a1530" rel="contents">1530</a></span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Returns HSV array of the current color</p>
+	<ul class="tags">
+				<li><span class="field">return:</span> using template array( 'h' =&gt; ?, 's' =&gt; ?, 'v' =&gt; ? );</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">array</span>
+		<span class="method-name">
+			getHSV
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="getRGB" id="getRGB"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<img src="images/Method.png" />
+		<span class="method-title">getRGB</span> (line <span class="line-number"><a href="__filesource/fsource_HSLColor__HSLColor.class.php.html#a1452" rel="contents">1452</a></span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Returns RGB array of the current color</p>
+	<ul class="tags">
+				<li><span class="field">return:</span> using template array( 'r' =&gt; ?, 'g' =&gt; ?, 'b' =&gt; ? );</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">array</span>
+		<span class="method-name">
+			getRGB
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="getRGBString" id="getRGBString"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<img src="images/Method.png" />
+		<span class="method-title">getRGBString</span> (line <span class="line-number"><a href="__filesource/fsource_HSLColor__HSLColor.class.php.html#a1463" rel="contents">1463</a></span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Returns HTML color string in hex-format</p>
+	<ul class="tags">
+				<li><span class="field">return:</span> HTML color in the format #xxxxxx</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">string</span>
+		<span class="method-name">
+			getRGBString
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="getSplitComplements" id="getSplitComplements"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<img src="images/Method.png" />
+		<span class="method-title">getSplitComplements</span> (line <span class="line-number"><a href="__filesource/fsource_HSLColor__HSLColor.class.php.html#a1626" rel="contents">1626</a></span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Split complements H° +/- 150°  This color scheme combines the two colors on either side of a color’s complement.</p>
+	<ul class="tags">
+				<li><span class="field">return:</span> Array with 2 HSLColor objects</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">array</span>
+		<span class="method-name">
+			getSplitComplements
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="getTriadic" id="getTriadic"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<img src="images/Method.png" />
+		<span class="method-title">getTriadic</span> (line <span class="line-number"><a href="__filesource/fsource_HSLColor__HSLColor.class.php.html#a1609" rel="contents">1609</a></span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Triadic  H° +/- 120°  This is the typical configuration of three colors that are equally spaced from each other on the color wheel.</p>
+	<ul class="tags">
+				<li><span class="field">return:</span> Array with 2 HSLColor objects</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">array</span>
+		<span class="method-name">
+			getTriadic
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="setCMY" id="setCMY"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<img src="images/Method.png" />
+		<span class="method-title">setCMY</span> (line <span class="line-number"><a href="__filesource/fsource_HSLColor__HSLColor.class.php.html#a1354" rel="contents">1354</a></span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">sets the current color</p>
+<p class="description"><p>The CMY is immediately converted in HSL and stored</p></p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			setCMY
+		</span>
+					(<span class="var-type">float</span>&nbsp;<span class="var-name">$cyan</span>, <span class="var-type">float</span>&nbsp;<span class="var-name">$magenta</span>, <span class="var-type">float</span>&nbsp;<span class="var-name">$yellow</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">float</span>
+				<span class="var-name">$cyan</span><span class="var-description">: The cyan color must between 0.0 and 1.0</span>			</li>
+					<li>
+				<span class="var-type">float</span>
+				<span class="var-name">$magenta</span><span class="var-description">: The magenta color must between 0.0 and 1.0</span>			</li>
+					<li>
+				<span class="var-type">float</span>
+				<span class="var-name">$yellow</span><span class="var-description">: The yellow color must between 0.0 and 1.0</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="setCMYK" id="setCMYK"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<img src="images/Method.png" />
+		<span class="method-title">setCMYK</span> (line <span class="line-number"><a href="__filesource/fsource_HSLColor__HSLColor.class.php.html#a1381" rel="contents">1381</a></span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">sets the current color</p>
+<p class="description"><p>The CMYK is immediately converted in HSL and stored</p></p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			setCMYK
+		</span>
+					(<span class="var-type">float</span>&nbsp;<span class="var-name">$cyan</span>, <span class="var-type">float</span>&nbsp;<span class="var-name">$magenta</span>, <span class="var-type">float</span>&nbsp;<span class="var-name">$yellow</span>, <span class="var-type">float</span>&nbsp;<span class="var-name">$key</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">float</span>
+				<span class="var-name">$cyan</span><span class="var-description">: The cyan color must between 0.0 and 1.0</span>			</li>
+					<li>
+				<span class="var-type">float</span>
+				<span class="var-name">$magenta</span><span class="var-description">: The magenta color must between 0.0 and 1.0</span>			</li>
+					<li>
+				<span class="var-type">float</span>
+				<span class="var-name">$yellow</span><span class="var-description">: The yellow color must between 0.0 and 1.0</span>			</li>
+					<li>
+				<span class="var-type">float</span>
+				<span class="var-name">$key</span><span class="var-description">: The key color must between 0.0 and 1.0</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="setHSL" id="setHSL"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<img src="images/Method.png" />
+		<span class="method-title">setHSL</span> (line <span class="line-number"><a href="__filesource/fsource_HSLColor__HSLColor.class.php.html#a1279" rel="contents">1279</a></span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">sets the current color</p>
+<p class="description"><p>Sets the HSL values, overwriting whatever was there previously.</p></p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			setHSL
+		</span>
+					(<span class="var-type">float</span>&nbsp;<span class="var-name">$hue</span>, <span class="var-type">float</span>&nbsp;<span class="var-name">$saturation</span>, <span class="var-type">float</span>&nbsp;<span class="var-name">$lightness</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">float</span>
+				<span class="var-name">$hue</span><span class="var-description">: The hue must be between 0 and 360</span>			</li>
+					<li>
+				<span class="var-type">float</span>
+				<span class="var-name">$saturation</span><span class="var-description">: The saturation must be between 0 and 1</span>			</li>
+					<li>
+				<span class="var-type">float</span>
+				<span class="var-name">$lightness</span><span class="var-description">: the lightness must be between 0 and 1</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="setHSV" id="setHSV"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<img src="images/Method.png" />
+		<span class="method-title">setHSV</span> (line <span class="line-number"><a href="__filesource/fsource_HSLColor__HSLColor.class.php.html#a1406" rel="contents">1406</a></span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">sets the current color</p>
+<p class="description"><p>The HSV is immediately converted in HSL and stored</p></p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			setHSV
+		</span>
+					(<span class="var-type">float</span>&nbsp;<span class="var-name">$hue</span>, <span class="var-type">float</span>&nbsp;<span class="var-name">$saturation</span>, <span class="var-type">float</span>&nbsp;<span class="var-name">$value</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">float</span>
+				<span class="var-name">$hue</span><span class="var-description">: The hue must be between 0 and 360</span>			</li>
+					<li>
+				<span class="var-type">float</span>
+				<span class="var-name">$saturation</span><span class="var-description">: The saturation must be between 0 and 1</span>			</li>
+					<li>
+				<span class="var-type">float</span>
+				<span class="var-name">$value</span><span class="var-description">: the value must be between 0 and 1</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="setRGB" id="setRGB"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<img src="images/Method.png" />
+		<span class="method-title">setRGB</span> (line <span class="line-number"><a href="__filesource/fsource_HSLColor__HSLColor.class.php.html#a1306" rel="contents">1306</a></span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">sets the current color</p>
+<p class="description"><p>The RGB is immediately converted in HSL and stored</p></p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			setRGB
+		</span>
+					(<span class="var-type">integer</span>&nbsp;<span class="var-name">$red</span>, <span class="var-type">integer</span>&nbsp;<span class="var-name">$green</span>, <span class="var-type">integer</span>&nbsp;<span class="var-name">$blue</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">integer</span>
+				<span class="var-name">$red</span><span class="var-description">: The red color must between 0 and 255</span>			</li>
+					<li>
+				<span class="var-type">integer</span>
+				<span class="var-name">$green</span><span class="var-description">: The green color must between 0 and 255</span>			</li>
+					<li>
+				<span class="var-type">integer</span>
+				<span class="var-name">$blue</span><span class="var-description">: The blue color must between 0 and 255</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="setRGBString" id="setRGBString"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<img src="images/Method.png" />
+		<span class="method-title">setRGBString</span> (line <span class="line-number"><a href="__filesource/fsource_HSLColor__HSLColor.class.php.html#a1326" rel="contents">1326</a></span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">sets the current color</p>
+<p class="description"><p>Sets the HSL values, overwriting whatever was there previously. The string is in HTML/CSS hex-format.</p></p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			setRGBString
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$html_string</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$html_string</span><span class="var-description">: color in RGB string format (i.e. FFFFFF) or HTML color name</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="splitRGBString" id="splitRGBString"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<img src="images/PrivateMethod.png" />
+		<span class="method-title">splitRGBString</span> (line <span class="line-number"><a href="__filesource/fsource_HSLColor__HSLColor.class.php.html#a1827" rel="contents">1827</a></span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Helperfunction for setRGBString()</p>
+	<ul class="tags">
+				<li><span class="field">return:</span> using template array( 'r' =&gt; ?, 'g' =&gt; ?, 'b' =&gt; ? );</li>
+				<li><span class="field">access:</span> private</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">array</span>
+		<span class="method-name">
+			splitRGBString
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$html_string</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$html_string</span><span class="var-description">: color in RGB string format (i.e. FFFFFF)</span>			</li>
+				</ul>
+		
+			
+	</div>
+                			
+            </div>
+        </div>
+    
+    </div>
